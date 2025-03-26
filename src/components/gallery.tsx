@@ -63,7 +63,7 @@ export function Gallery() {
           size="lg"
           className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700"
         >
-          <Link href="https://preview.reve.art/">
+          <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
             {t('button')} <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>

@@ -19,7 +19,7 @@ export function CTA() {
           {t('description2')}
         </p>
         <Button asChild size="lg" className="bg-white text-purple-900 hover:bg-gray-100">
-          <Link href="https://preview.reve.art/">
+          <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
             {t('button')} <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
