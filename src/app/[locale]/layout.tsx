@@ -2,6 +2,7 @@ import { appConfig } from "@/lib/appConfig";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import './globals.css'
+import { GoogleAnalyticsScript } from "@/components/script/GoogleAnalyticsScript";
 
 export const dynamic = 'force-dynamic'
 
@@ -44,6 +45,7 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
         <body>{children}</body>
+        <GoogleAnalyticsScript />
       </NextIntlClientProvider>
     </html>
   )

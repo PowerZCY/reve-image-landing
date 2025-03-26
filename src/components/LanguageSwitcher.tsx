@@ -44,17 +44,18 @@ export default function LanguageSwitcher() {
             </DropdownMenuTrigger>
             <DropdownMenuContent
                 align="end"
-                className="bg-white/90 dark:bg-gray-800/90 border-purple-100 dark:border-purple-800 w-[280px] p-2 backdrop-blur-sm"
+                sideOffset={5}
+                className="bg-white/90 dark:bg-gray-800/90 border-purple-100 dark:border-purple-800 w-[200px] p-2 backdrop-blur-sm translate-x-[50px]"
             >
-                <div className="grid grid-cols-3 gap-1">
+                <div className="grid grid-cols-2 gap-1">
                     {appConfig.i18n.locales.map((loc) => (
                         <DropdownMenuItem
                             key={loc}
                             className={`
-                                px-3 py-2 text-sm cursor-pointer text-center justify-center
+                                px-2 py-2 text-sm cursor-pointer text-center justify-center
                                 transition-all duration-300 ease-in-out
                                 hover:scale-105 hover:shadow-md
-                                rounded-md
+                                rounded-md whitespace-nowrap
                                 ${locale === loc
                                     ? 'bg-gradient-to-r from-purple-400 to-pink-600 text-white font-medium shadow-lg scale-105'
                                     : 'hover:bg-gradient-to-r hover:from-purple-400/10 hover:to-pink-600/10 hover:text-transparent hover:bg-clip-text'

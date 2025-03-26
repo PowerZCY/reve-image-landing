@@ -1,26 +1,21 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
+
 export function Features() {
-  const featureItems = [
-    {
-      title: "High-Quality Output",
-      description: "Reve Image produces stunning, detailed images that rival professional artwork.",
-      icon: "✨",
-    },
-    {
-      title: "20 Free Images Daily",
-      description: "Enjoy a generous daily allowance of 20 free images with your Reve Image account.",
-      icon: "🎁",
-    },
-    {
-      title: "Intuitive Prompting",
-      description: "Our advanced AI understands natural language, making it easy to describe your vision.",
-      icon: "💬",
-    },
-  ]
+  const t = useTranslations('features');
+  
+  // 直接从翻译文件获取特性列表
+  const featureItems = t.raw('items') as Array<{
+    title: string;
+    description: string;
+    icon: string;
+  }>;
 
   return (
     <section id="features" className="container mx-auto px-4 py-20">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-        Why Choose <span className="text-purple-500">Reve Image</span>
+        {t('title')} <span className="text-purple-500">{t('eyesOn')}</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {featureItems.map((feature, index) => (

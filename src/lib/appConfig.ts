@@ -45,12 +45,31 @@ export const appConfig = {
   baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://reveimage.directory',
 
   // 国际化配置
+  // - 英语 (en)
+  // - 简体中文 (zh)
+  // - 日语 (ja)
+  // - 韩语 (ko)
+  // - 法语 (fr)
+  // - 德语 (de)
+  // - 西班牙语 (es)
+  // - 意大利语 (it)
+  // - 土耳其语 (tr)
+  // - 波兰语 (pl)
   i18n: {
-    locales: ["en", "zh"] as const,
+    locales: ["en", "zh", "ja", "ko", "fr", "de", "es", "it", "pt", "tr", "pl"] as const,
     defaultLocale: "en" as const,
     localeLabels: {
       en: "English",
       zh: "简体中文",
+      ja: "日本語",
+      ko: "한국어",
+      fr: "Français",
+      de: "Deutsch",
+      es: "Español",
+      it: "Italiano",
+      pt: "Português",
+      tr: "Türkçe",
+      pl: "Polski",
     },
     detector: {
       storageKey: 'language-preference-status',
