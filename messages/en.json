@@ -1,13 +1,14 @@
 {
     "home": {
-        "webTitle": "Reve Image Directory",
-        "webDescription": "Reve Image is a cutting-edge AI image generation platform that transforms text descriptions into stunning visual content. Create breathtaking, high-quality images with our intuitive prompting system. Enjoy 20 free images daily, perfect for designers, marketers, artists, and storytellers. Generate everything from futuristic cityscapes to magical forests, with support for various artistic styles including oil painting, digital art, and photorealistic renders. Our advanced AI technology understands natural language, making it easy to bring your creative vision to life with detailed control over style, lighting, mood, and composition.",
-        "keywords": "AI image generation, text-to-image, digital art, creative tools, artificial intelligence, visual content creation, Reve Image, free image generation, AI art platform, prompt engineering, artistic styles, creative design, digital artwork, AI technology, visual AI"
+        "title": "Reve Image Directory",
+        "webTitle": "Reve Image Directory - Showcase Beautiful Images & Tips",
+        "webDescription": "Discover stunning AI-generated images and learn expert tips for creating beautiful visuals with Reve Image's powerful text-to-image technology.",
+        "keywords": "AI image generation, text-to-image, digital art, creative tools, Reve Image, free image generation"
     },
     "hero": {
         "mainTitle": "Create Stunning Images with",
         "mainEyesOn": "Reve Image",
-        "description": "Transform your ideas into breathtaking visuals with Reve Image's AI-powered image generation. Unleash your creativity with our cutting-edge technology.",
+        "description": "Transform your ideas into breathtaking visuals with Reve Image's AI-powered image generation. Unleash your creativity with the cutting-edge technology.",
         "button": "Get Started",
         "about": "Enjoy 20 free images daily with Reve Image",
         "heroImageAlt": "Reve Image AI-generated artwork showcasing the power of the platform"
@@ -28,7 +29,7 @@
             },
             {
                 "title": "Intuitive Prompting",
-                "description": "Our advanced AI understands natural language, making it easy to describe your vision.",
+                "description": "The advanced AI understands natural language, making it easy to describe your vision.",
                 "icon": "💬"
             }
         ]
@@ -37,7 +38,7 @@
         "titleL": "Gallery of",
         "eyesOn": "Reve Image",
         "titleR": "Creations",
-        "description": "Explore the incredible possibilities with Reve Image. Each image below was generated using our AI technology with the accompanying prompt.",
+        "description": "Explore the incredible possibilities with Reve Image. Each image below was generated using the AI technology with the accompanying prompt.",
         "button": "Create Your Own Images",
         "prompts": [
             "A futuristic cityscape with flying vehicles and neon lights",

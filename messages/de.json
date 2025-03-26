@@ -1,13 +1,14 @@
 {
     "home": {
-        "webTitle": "Reve Image Directory",
-        "webDescription": "Reve Image ist eine hochmoderne KI-Bildgenerierungsplattform, die Textbeschreibungen in atemberaubende visuelle Inhalte umwandelt. Erstellen Sie wunderschöne, hochwertige Bilder mit unserem intuitiven Prompt-System. Genießen Sie 20 kostenlose Bilder täglich, perfekt für Designer, Vermarkter, Künstler und Geschichtenerzähler. Generieren Sie alles von futuristischen Stadtlandschaften bis hin zu magischen Wäldern, mit Unterstützung verschiedener künstlerischer Stile, einschließlich Ölmalerei, digitaler Kunst und fotorealistischer Darstellung. Unsere fortschrittliche KI-Technologie versteht natürliche Sprache und ermöglicht es Ihnen, Ihre kreative Vision durch detaillierte Kontrolle über Stil, Beleuchtung, Stimmung und Komposition einfach zu verwirklichen.",
-        "keywords": "KI-Bildgenerierung, Text-zu-Bild, digitale Kunst, kreative Werkzeuge, künstliche Intelligenz, visuelle Inhaltserstellung, Reve Image, kostenlose Bildgenerierung, KI-Kunstplattform, Prompt-Engineering, künstlerische Stile, kreatives Design, digitales Kunstwerk, KI-Technologie, visuelle KI"
+        "title": "Reve Image Directory",
+        "webTitle": "Reve Image Directory - Präsentation Schöner Bilder & Tipps",
+        "webDescription": "Entdecken Sie atemberaubende KI-generierte Bilder und lernen Sie Expertentipps für die Erstellung schöner visueller Inhalte mit der leistungsstarken Text-zu-Bild-Technologie von Reve Image.",
+        "keywords": "KI-Bildgenerierung, Text-zu-Bild, digitale Kunst, kreative Werkzeuge, Reve image"
     },
     "hero": {
         "mainTitle": "Erstellen Sie atemberaubende Bilder mit",
         "mainEyesOn": "Reve Image",
-        "description": "Verwandeln Sie Ihre Ideen in atemberaubende Visuals mit der KI-gestützten Bildgenerierung von Reve Image. Entfesseln Sie Ihre Kreativität mit unserer hochmodernen Technologie.",
+        "description": "Verwandeln Sie Ihre Ideen in atemberaubende Visuals mit der KI-gestützten Bildgenerierung von Reve Image. Entfesseln Sie Ihre Kreativität mit hochmodernen Technologie.",
         "button": "Jetzt Starten",
         "about": "Genießen Sie täglich 20 kostenlose Bilder mit Reve Image",
         "heroImageAlt": "Von Reve Image KI generiertes Kunstwerk, das die Leistungsfähigkeit der Plattform demonstriert"
@@ -28,7 +29,7 @@
             },
             {
                 "title": "Intuitive Prompts",
-                "description": "Unsere fortschrittliche KI versteht natürliche Sprache und macht es einfach, Ihre Vision zu beschreiben.",
+                "description": "Die fortschrittliche KI versteht natürliche Sprache und macht es einfach, Ihre Vision zu beschreiben.",
                 "icon": "💬"
             }
         ]
@@ -37,7 +38,7 @@
         "titleL": "Galerie von",
         "eyesOn": "Reve Image",
         "titleR": "Kreationen",
-        "description": "Entdecken Sie die unglaublichen Möglichkeiten mit Reve Image. Jedes Bild unten wurde mit unserer KI-Technologie und dem begleitenden Prompt generiert.",
+        "description": "Entdecken Sie die unglaublichen Möglichkeiten mit Reve Image. Jedes Bild unten wurde mit KI-Technologie und dem begleitenden Prompt generiert.",
         "button": "Erstellen Sie Ihre eigenen Bilder",
         "prompts": [
             "A futuristic cityscape with flying vehicles and neon lights",

@@ -1,13 +1,14 @@
 {
     "home": {
-        "webTitle": "Reve Image Directory",
-        "webDescription": "Reve Image é uma plataforma de geração de imagens por IA de última geração que transforma descrições textuais em impressionante conteúdo visual. Crie belas imagens de alta qualidade com nosso sistema intuitivo de prompts. Aproveite 20 imagens gratuitas por dia, perfeito para designers, profissionais de marketing, artistas e contadores de histórias. Gere desde paisagens urbanas futuristas até florestas mágicas, com suporte para vários estilos artísticos, incluindo pintura a óleo, arte digital e renderização fotorrealista. Nossa tecnologia avançada de IA compreende linguagem natural, facilitando a realização de sua visão criativa com controle detalhado sobre estilo, iluminação, ambiente e composição.",
-        "keywords": "geração de imagens por IA, texto para imagem, arte digital, ferramentas criativas, inteligência artificial, criação de conteúdo visual, Reve Image, geração gratuita de imagens, plataforma de arte IA, engenharia de prompts, estilos artísticos, design criativo, obra digital, tecnologia IA, IA visual"
+        "title": "Reve Image Directory",
+        "webTitle": "Reve Image Directory - Mostra de Imagens Bonitas & Dicas",
+        "webDescription": "Descubra imagens impressionantes geradas por IA e aprenda dicas de especialistas para criar belos visuais com a poderosa tecnologia de texto para imagem do Reve Image.",
+        "keywords": "geração de imagens por IA, texto para imagem, arte digital, Reve Image"
     },
     "hero": {
         "mainTitle": "Crie Imagens Impressionantes com",
         "mainEyesOn": "Reve Image",
-        "description": "Transforme suas ideias em visuais impressionantes com a geração de imagens alimentada por IA do Reve Image. Liberte sua criatividade com nossa tecnologia de ponta.",
+        "description": "Transforme suas ideias em visuais impressionantes com a geração de imagens alimentada por IA do Reve Image. Liberte sua criatividade com a tecnologia de ponta.",
         "button": "Começar",
         "about": "Aproveite 20 imagens gratuitas por dia com Reve Image",
         "heroImageAlt": "Obra de arte gerada pela IA do Reve Image demonstrando o poder da plataforma"
@@ -28,7 +29,7 @@
             },
             {
                 "title": "Prompts Intuitivos",
-                "description": "Nossa IA avançada compreende linguagem natural, tornando fácil descrever sua visão.",
+                "description": "A IA avançada compreende linguagem natural, tornando fácil descrever sua visão.",
                 "icon": "💬"
             }
         ]
@@ -37,7 +38,7 @@
         "titleL": "Galeria de",
         "eyesOn": "Reve Image",
         "titleR": "Criações",
-        "description": "Explore as incríveis possibilidades com Reve Image. Cada imagem abaixo foi gerada usando nossa tecnologia de IA com o prompt correspondente.",
+        "description": "Explore as incríveis possibilidades com Reve Image. Cada imagem abaixo foi gerada usando a tecnologia de IA com o prompt correspondente.",
         "button": "Crie Suas Próprias Imagens",
         "prompts": [
             "A futuristic cityscape with flying vehicles and neon lights",

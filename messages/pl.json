@@ -1,13 +1,14 @@
 {
     "home": {
-        "webTitle": "Reve Image Directory",
-        "webDescription": "Reve Image to najnowocześniejsza platforma generowania obrazów oparta na sztucznej inteligencji, która przekształca opisy tekstowe w oszałamiające treści wizualne. Twórz piękne obrazy wysokiej jakości dzięki naszemu intuicyjnemu systemowi promptów. Ciesz się 20 darmowymi obrazami dziennie, idealnymi dla projektantów, marketerów, artystów i storytellerów. Generuj wszystko, od futurystycznych krajobrazów miejskich po magiczne lasy, z obsługą różnych stylów artystycznych, w tym malarstwa olejnego, sztuki cyfrowej i fotorealistycznego renderowania. Nasza zaawansowana technologia AI rozumie język naturalny, ułatwiając realizację Twojej kreatywnej wizji poprzez szczegółową kontrolę nad stylem, oświetleniem, atmosferą i kompozycją.",
-        "keywords": "generowanie obrazów AI, tekst na obraz, sztuka cyfrowa, narzędzia kreatywne, sztuczna inteligencja, tworzenie treści wizualnych, Reve Image, darmowe generowanie obrazów, platforma sztuki AI, inżynieria promptów, style artystyczne, kreatywne projektowanie, dzieło cyfrowe, technologia AI, AI wizualne"
+        "title": "Reve Image Directory",
+        "webTitle": "Reve Image Directory - Pokaz Pięknych Obrazów i Wskazówek",
+        "webDescription": "Odkryj oszałamiające obrazy generowane przez AI i naucz się eksperckich wskazówek tworzenia pięknych wizualizacji dzięki potężnej technologii zamiany tekstu na obraz Reve Image.",
+        "keywords": "generowanie obrazów AI, tekst na obraz, sztuka cyfrowa, narzędzia kreatywne, Reve Image"
     },
     "hero": {
         "mainTitle": "Twórz Oszałamiające Obrazy z",
         "mainEyesOn": "Reve Image",
-        "description": "Przekształć swoje pomysły w oszałamiające wizualizacje dzięki generowaniu obrazów wspomaganemu przez AI Reve Image. Uwolnij swoją kreatywność dzięki naszej najnowocześniejszej technologii.",
+        "description": "Przekształć swoje pomysły w oszałamiające wizualizacje dzięki generowaniu obrazów wspomaganemu przez AI Reve Image. Uwolnij swoją kreatywność dzięki najnowocześniejszej technologii.",
         "button": "Rozpocznij",
         "about": "Ciesz się 20 darmowymi obrazami dziennie z Reve Image",
         "heroImageAlt": "Dzieło sztuki wygenerowane przez AI Reve Image demonstrujące moc platformy"
@@ -28,7 +29,7 @@
             },
             {
                 "title": "Intuicyjne Prompty",
-                "description": "Nasza zaawansowana AI rozumie język naturalny, ułatwiając opisanie Twojej wizji.",
+                "description": "Zaawansowana AI rozumie język naturalny, ułatwiając opisanie Twojej wizji.",
                 "icon": "💬"
             }
         ]
@@ -37,7 +38,7 @@
         "titleL": "Galeria",
         "eyesOn": "Reve Image",
         "titleR": "Kreacji",
-        "description": "Odkryj niesamowite możliwości z Reve Image. Każdy obraz poniżej został wygenerowany przy użyciu naszej technologii AI z odpowiednim promptem.",
+        "description": "Odkryj niesamowite możliwości z Reve Image. Każdy obraz poniżej został wygenerowany przy użyciu technologii AI z odpowiednim promptem.",
         "button": "Twórz Własne Obrazy",
         "prompts": [
             "A futuristic cityscape with flying vehicles and neon lights",

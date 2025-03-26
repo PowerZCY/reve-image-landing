@@ -1,13 +1,14 @@
 {
     "home": {
-        "webTitle": "Reve Image Directory",
-        "webDescription": "Reve Image, metin açıklamalarını etkileyici görsel içeriğe dönüştüren en gelişmiş yapay zeka tabanlı görüntü oluşturma platformudur. Sezgisel prompt sistemimizle yüksek kaliteli güzel görseller oluşturun. Tasarımcılar, pazarlamacılar, sanatçılar ve hikaye anlatıcıları için mükemmel olan günlük 20 ücretsiz görsel oluşturma hakkından yararlanın. Fütüristik şehir manzaralarından sihirli ormanlara kadar, yağlı boya, dijital sanat ve fotogerçekçi render dahil çeşitli sanatsal stilleri destekler. Gelişmiş yapay zeka teknolojimiz doğal dili anlayarak, stil, aydınlatma, atmosfer ve kompozisyon üzerinde detaylı kontrol ile yaratıcı vizyonunuzu kolayca gerçekleştirmenizi sağlar.",
-        "keywords": "yapay zeka görsel oluşturma, metinden görsele, dijital sanat, yaratıcı araçlar, yapay zeka, görsel içerik oluşturma, Reve Image, ücretsiz görsel oluşturma, yapay zeka sanat platformu, prompt mühendisliği, sanatsal stiller, yaratıcı tasarım, dijital eser, yapay zeka teknolojisi, görsel yapay zeka"
+        "title": "Reve Image Directory",
+        "webTitle": "Reve Image Directory - Güzel Görseller ve İpuçları Vitrini",
+        "webDescription": "Etkileyici yapay zeka üretimi görselleri keşfedin ve Reve Image'ın güçlü metin-görsel teknolojisiyle güzel görsel içerikler oluşturmak için uzman ipuçlarını öğrenin.",
+        "keywords": "yapay zeka görsel oluşturma, metinden görsele, dijital sanat, Reve Image"
     },
     "hero": {
         "mainTitle": "Etkileyici Görseller Oluşturun",
         "mainEyesOn": "Reve Image",
-        "description": "Reve Image'ın yapay zeka destekli görsel oluşturma teknolojisiyle fikirlerinizi etkileyici görsellere dönüştürün. En son teknolojimizle yaratıcılığınızı özgür bırakın.",
+        "description": "Reve Image'ın yapay zeka destekli görsel oluşturma teknolojisiyle fikirlerinizi etkileyici görsellere dönüştürün. En son teknolojiyle yaratıcılığınızı özgür bırakın.",
         "button": "Başlayın",
         "about": "Reve Image ile günlük 20 ücretsiz görsel oluşturun",
         "heroImageAlt": "Reve Image yapay zekası tarafından oluşturulan, platformun gücünü gösteren sanat eseri"
@@ -28,7 +29,7 @@
             },
             {
                 "title": "Sezgisel Promptlar",
-                "description": "Gelişmiş yapay zekamız doğal dili anlayarak vizyonunuzu kolayca tanımlamanızı sağlar.",
+                "description": "Gelişmiş yapay zeka doğal dili anlayarak vizyonunuzu kolayca tanımlamanızı sağlar.",
                 "icon": "💬"
             }
         ]
@@ -37,7 +38,7 @@
         "titleL": "Reve Image",
         "eyesOn": "Galeri",
         "titleR": "Eserleri",
-        "description": "Reve Image ile inanılmaz olasılıkları keşfedin. Aşağıdaki her görsel, yapay zeka teknolojimiz kullanılarak ilgili prompt ile oluşturuldu.",
+        "description": "Reve Image ile inanılmaz olasılıkları keşfedin. Aşağıdaki her görsel, yapay zeka teknolojisi kullanılarak ilgili prompt ile oluşturuldu.",
         "button": "Kendi Görsellerinizi Oluşturun",
         "prompts": [
             "A futuristic cityscape with flying vehicles and neon lights",

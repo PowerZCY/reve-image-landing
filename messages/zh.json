@@ -1,13 +1,14 @@
 {
     "home": {
-        "webTitle": "Reve Image Directory",
-        "webDescription": "Reve Image 是一个尖端的 AI 图像生成平台，可将文本描述转换为令人惊叹的视觉内容。使用我们直观的提示系统创建精美的高质量图像。每天享受 20 张免费图像，完美适合设计师、营销人员、艺术家和故事创作者。从未来城市景观到魔法森林，支持各种艺术风格，包括油画、数字艺术和写实渲染。我们的先进 AI 技术理解自然语言，让您能够轻松地通过对风格、光线、情绪和构图的详细控制，将创意愿景变为现实。",
-        "keywords": "AI 图像生成, 文本转图像, 数字艺术, 创意工具, 人工智能, 视觉内容创作, Reve Image, 免费图像生成, AI 艺术平台, 提示工程, 艺术风格, 创意设计, 数字作品, AI 技术, 视觉 AI"
+        "title": "Reve Image Directory",
+        "webTitle": "Reve Image Directory - 展示优美图片和生图技巧",
+        "webDescription": "探索精美的AI图片，学习使用Reve Image强大的文生图算法创建优美的图片。",
+        "keywords": "AI 图像生成, 文本转图像, Reve Image, 免费图像生成"
     },
     "hero": {
         "mainTitle": "使用",
         "mainEyesOn": "Reve Image",
-        "description": "通过 Reve Image 的 AI 驱动的图像生成，将您的想法转化为令人惊叹的视觉效果。释放您的创造力，体验我们的尖端技术。",
+        "description": "通过 Reve Image 的 AI 驱动的图像生成，将您的想法转化为令人惊叹的视觉效果。释放您的创造力，体验尖端技术。",
         "button": "立即开始",
         "about": "使用 Reve Image 每天享受 20 张免费图片",
         "heroImageAlt": "Reve Image AI 生成的艺术作品展示平台的强大功能"
@@ -28,7 +29,7 @@
             },
             {
                 "title": "直观的提示系统",
-                "description": "我们的先进 AI 能理解自然语言，让您轻松描述您的愿景。",
+                "description": "先进的 AI 能理解自然语言，让您轻松描述您的愿景。",
                 "icon": "💬"
             }
         ]
@@ -37,7 +38,7 @@
         "titleL": "Reve Image",
         "eyesOn": "画廊",
         "titleR": "作品展示",
-        "description": "探索 Reve Image 带来的无限可能。以下每张图片都是使用我们的 AI 技术根据相应提示生成的。",
+        "description": "探索 Reve Image 带来的无限可能。以下每张图片都是使用 AI 技术根据相应提示生成。",
         "button": "创建您自己的图片",
         "prompts": [
             "A futuristic cityscape with flying vehicles and neon lights",
