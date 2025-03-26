@@ -11,8 +11,8 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <Header />
       <Hero />
-      <Features />
       <Gallery />
+      <Features />
       <Tips />
       <SeoContent />
       <CTA />
