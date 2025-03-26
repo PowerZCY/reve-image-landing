@@ -1,0 +1,13 @@
+{
+    "home": {
+        "webTitle": "xx",
+        "webDescription": "xx",
+        "keywords": "xx"
+    },
+    "languageDetection": {
+        "title": "Language Detection",
+        "description": "Would you like to switch to",
+        "close": "No, thanks",
+        "changeAction": "Yes, switch"
+    }
+}
