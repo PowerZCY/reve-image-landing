@@ -5,10 +5,28 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from 'next-intl'
+import { Download } from "lucide-react"
 
 export function Gallery() {
   const t = useTranslations('gallery');
   const galleryItems = t.raw('prompts') as string[];
+
+  const handleDownload = async (index: number) => {
+    try {
+      const response = await fetch(`/${index + 1}.webp`);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `reve-image-${index + 1}.webp`;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error('Download failed:', error);
+    }
+  };
 
   return (
     <section id="gallery" className="container mx-auto px-4 py-20">
@@ -23,14 +41,18 @@ export function Gallery() {
           <div key={index} className="group relative overflow-hidden rounded-xl">
             <Image
               src={`/${index + 1}.webp`}
-              alt={`Reve Image AI-generated artwork: ${prompt}`}
+              alt="Reve Image AI-generated artwork"
               width={600}
               height={600}
               className="w-full h-80 object-cover transition duration-300 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-              <p className="text-sm text-gray-300">Prompt:</p>
-              <p className="font-medium">{prompt}</p>
+            <div className="absolute inset-0 flex items-end justify-end p-4 opacity-0 group-hover:opacity-100 transition duration-300">
+              <button
+                onClick={() => handleDownload(index)}
+                className="bg-black/50 hover:bg-black/70 p-2 rounded-full text-white/80 hover:text-white transition-all duration-300"
+              >
+                <Download className="h-5 w-5" />
+              </button>
             </div>
           </div>
         ))}
