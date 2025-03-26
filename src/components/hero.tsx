@@ -36,13 +36,14 @@ export function Hero() {
           <span>{t('about')}</span>
         </div>
       </div>
-      <div className="flex-1 rounded-lg overflow-hidden shadow-purple-500/20">
+      <div className="flex-1 rounded-lg overflow-hidden shadow-purple-500/20 group">
         <Image
           src="/0.webp"
           alt={t('heroImageAlt')}
           width={500}
           height={500}
           priority
+          className="transition duration-300 group-hover:scale-105"
         />
       </div>
     </section>

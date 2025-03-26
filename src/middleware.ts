@@ -25,11 +25,6 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(newUrl, 301);
   }
 
-  // 处理favicon.ico请求
-  if (request.nextUrl.pathname === '/favicon.ico') {
-    return NextResponse.rewrite(new URL('/favicon.svg', request.url));
-  }
-
   return intlMiddleware(request);
 }
 
