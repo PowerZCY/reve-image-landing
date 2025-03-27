@@ -3,10 +3,10 @@ import createMiddleware from 'next-intl/middleware';
 import { appConfig } from "./lib/appConfig";
 
 const intlMiddleware = createMiddleware({
-  // A list of all locales that are supported
+  // 多语言配置
   locales: appConfig.i18n.locales,
 
-  // Used when no locale matches
+  // 默认语言配置
   defaultLocale: appConfig.i18n.defaultLocale,
   localePrefix: "always", // 改为 always，确保始终使用语言前缀
   localeDetection: false  // 添加此配置以禁用自动语言检测
