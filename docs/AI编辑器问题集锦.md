@@ -1,5 +1,37 @@
 # AI编辑器问题集锦
 
+# 一条命令获取模板工程
+- 前置环境依赖
+```bash
+# Node.js 环境, 检查是否安装
+node -v
+# 如果未安装, 使用 brew 安装
+brew install node
+
+# 检查版本
+npm -v
+# npm 通常随 Node.js 一起安装, 如需更新：
+npm install -g npm@latest
+# 建议使用 nvm 管理 Node.js 版本, 安装 nvm
+brew install nvm
+# 安装特定版本的 Node.js（推荐使用 LTS 版本）
+nvm install --lts
+nvm use --lts
+
+# 使用 npm 全局安装 pnpm, 用于管理项目依赖 pnpm比npm要好
+npm install -g pnpm
+# 验证安装
+pnpm -v
+# 设置淘宝镜像源（可选，但建议国内用户设置）
+# pnpm config set registry https://registry.npmmirror.com
+```
+
+- 一键直达
+```bash
+# 
+npx create-next-app . --example https://github.com/caofanCPU/模板仓库
+```
+
 ## 编码类问题
 
 ### eslint未使用包报错
