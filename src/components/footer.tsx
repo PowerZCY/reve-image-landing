@@ -1,5 +1,6 @@
 import { Zap } from "lucide-react"
 import MicrosoftClarity from "./script/MicrosoftClarity"
+
 export function Footer() {
   return (
     <footer className="container mx-auto px-4 py-12 border-t border-gray-800">
