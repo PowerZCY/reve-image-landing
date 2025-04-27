@@ -5,7 +5,7 @@ import { Gallery } from "@/components/gallery"
 import { Tips } from "@/components/tips"
 import { SeoContent } from "@/components/seo-content"
 import { CTA } from "@/components/cta"
-
+import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
@@ -16,6 +16,7 @@ export default function Home() {
       <Tips />
       <SeoContent />
       <CTA />
+      <Footer />
     </div>
   )
 }
