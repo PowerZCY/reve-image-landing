@@ -3,6 +3,14 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import './globals.css'
 import { GoogleAnalyticsScript } from "@/components/script/GoogleAnalyticsScript";
+import { Montserrat } from "next/font/google";
+import { cn } from '@/lib/utils';
+
+const montserrat = Montserrat({
+  weight: ['400'], // 400 是 Regular
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export const dynamic = 'force-dynamic'
 
@@ -60,7 +68,9 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
-        <body>{children}</body>
+        <body className={cn(montserrat.className)}>
+          {children}
+          </body>
         <GoogleAnalyticsScript />
       </NextIntlClientProvider>
     </html>
