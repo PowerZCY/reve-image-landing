@@ -1,6 +1,6 @@
 import { appConfig } from "@/lib/appConfig";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import './globals.css'
 import { GoogleAnalyticsScript } from "@/components/script/GoogleAnalyticsScript";
 import { Montserrat } from "next/font/google";
@@ -63,7 +63,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await paramsPromise;  // 使用新名称
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const messages = await getMessages();
   return (
     <html lang={locale} suppressHydrationWarning>
