@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import './globals.css'
 import { GoogleAnalyticsScript } from "@/components/script/GoogleAnalyticsScript";
+import MicrosoftClarityScript from "@/components/script/MicrosoftClarityScript"
 import { Montserrat } from "next/font/google";
 import { cn } from '@/lib/utils';
 
@@ -72,6 +73,7 @@ export default async function RootLayout({
           {children}
           </body>
         <GoogleAnalyticsScript />
+        <MicrosoftClarityScript />
       </NextIntlClientProvider>
     </html>
   )

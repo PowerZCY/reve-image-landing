@@ -1,5 +1,4 @@
 import { Zap } from "lucide-react"
-import MicrosoftClarity from "./script/MicrosoftClarity"
 
 export function Footer() {
   return (
@@ -9,7 +8,6 @@ export function Footer() {
         <span className="text-xl font-bold">Reve Image</span>
       </div>
       <div className="text-gray-400 text-sm">© {new Date().getFullYear()} Reve Image. All rights reserved.</div>
-      <MicrosoftClarity />
     </footer>
   )
 }
