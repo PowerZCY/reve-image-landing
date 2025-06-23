@@ -1,10 +1,9 @@
 'use client'
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { globalLucideIcons as icons } from '@/components/global-icon'
 import { useTranslations } from 'next-intl'
-import { globalLucideIcons as icons} from '@/components/global-icon'
+import Image from "next/image"
+import { GradientButton } from "./gradient-button"
 
 export function Gallery() {
   const t = useTranslations('gallery');
@@ -57,15 +56,11 @@ export function Gallery() {
         ))}
       </div>
       <div className="text-center mt-12">
-        <Button
-          asChild
-          size="lg"
-          className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700"
-        >
-          <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
-            {t('button')} <icons.LogIn className="ml-2 h-4 w-4 text-white" />
-          </Link>
-        </Button>
+        <GradientButton
+          title={t('button')}
+          href="https://preview.reve.art/"
+          align="center"
+        />
       </div>
     </section>
   )

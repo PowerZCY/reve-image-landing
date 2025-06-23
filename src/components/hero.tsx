@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { globalLucideIcons as icons } from '@/components/global-icon'
 import { useTranslations } from 'next-intl'
-import { globalLucideIcons as icons} from '@/components/global-icon'
+import Image from "next/image"
+import { GradientButton } from "./gradient-button"
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -20,17 +19,10 @@ export function Hero() {
         <p className="text-lg text-gray-300 max-w-2xl">
           {t('description')}
         </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Button
-            asChild
-            size="lg"
-            className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700"
-          >
-            <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
-              {t('button')} <icons.LogIn className="ml-2 h-4 w-4 text-white" />
-            </Link>
-          </Button>
-        </div>
+        <GradientButton
+          title={t('button')}
+          href="https://preview.reve.art/"
+        />
         <div className="flex items-center gap-2 text-sm text-gray-400">
           <icons.Zap className="h-4 w-4" />
           <span>{t('about')}</span>
