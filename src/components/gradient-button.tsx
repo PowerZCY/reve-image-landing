@@ -42,7 +42,7 @@ export function GradientButton({
           rounded-full
         "
       >
-        <Link href={href} target="_blank" rel="noopener noreferrer">
+        <Link href={href} target="_blank" rel="noopener noreferrer" className="no-underline hover:no-underline">
           <span>{title}</span>
           <span className="ml-1">
             {icon ? 
