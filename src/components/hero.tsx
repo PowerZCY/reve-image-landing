@@ -27,7 +27,7 @@ export function Hero() {
             className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700"
           >
             <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
-              {t('button')} <icons.ArrowRight className="ml-2 h-4 w-4" />
+              {t('button')} <icons.LogIn className="ml-2 h-4 w-4 text-white" />
             </Link>
           </Button>
         </div>

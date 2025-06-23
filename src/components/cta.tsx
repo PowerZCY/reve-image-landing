@@ -20,7 +20,7 @@ export function CTA() {
         </p>
         <Button asChild size="lg" className="bg-white text-purple-900 hover:bg-gray-100">
           <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
-            {t('button')} <icons.ArrowRight className="ml-2 h-4 w-4" />
+            {t('button')} <icons.LogIn className="ml-2 h-4 w-4" />
           </Link>
         </Button>
       </div>

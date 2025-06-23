@@ -50,7 +50,7 @@ export function Gallery() {
                 onClick={() => handleDownload(index)}
                 className="bg-black/50 hover:bg-black/70 p-2 rounded-full text-white/80 hover:text-white transition-all duration-300"
               >
-                <icons.Download className="h-5 w-5" />
+                <icons.Download className="h-5 w-5 text-white" />
               </button>
             </div>
           </div>
@@ -63,7 +63,7 @@ export function Gallery() {
           className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700"
         >
           <Link href="https://preview.reve.art/" target="_blank" rel="noopener noreferrer">
-            {t('button')} <icons.ArrowRight className="ml-2 h-4 w-4" />
+            {t('button')} <icons.LogIn className="ml-2 h-4 w-4 text-white" />
           </Link>
         </Button>
       </div>

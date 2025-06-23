@@ -17,6 +17,8 @@ export {
     Download,
     Globe,
     GripVertical,
+    LogIn,
+    LogOut,
     MoreHorizontal,
     PanelLeft,
     Search,
