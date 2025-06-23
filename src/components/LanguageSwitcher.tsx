@@ -11,7 +11,6 @@
 
 import { usePathname, useRouter } from 'next/navigation'
 import { useLocale } from 'next-intl'
-import { Globe } from 'lucide-react'
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -20,6 +19,7 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { LanguageButton } from '@/components/ui/language-button'
 import { appConfig } from '@/lib/appConfig'
+import { globalLucideIcons as icons} from '@/components/global-icon'
 
 export default function LanguageSwitcher() {
     const locale = useLocale()
@@ -39,7 +39,7 @@ export default function LanguageSwitcher() {
                     size="icon"
                     className="bg-gradient-to-r from-purple-400 to-pink-600 hover:from-purple-500 hover:to-pink-700 text-white transform hover:scale-110 transition-all duration-300"
                 >
-                    <Globe className="h-5 w-5" />
+                    <icons.Globe className="h-5 w-5" />
                 </LanguageButton>
             </DropdownMenuTrigger>
             <DropdownMenuContent

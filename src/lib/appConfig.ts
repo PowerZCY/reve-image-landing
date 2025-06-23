@@ -12,24 +12,6 @@ const devMenu: MenuItem[] = [
     key: 'journey',
     href: '/blog',
   },
-  // {
-  //   key: 'docs',
-  //   href: '/docs',
-  //   children: [
-  //     {
-  //       key: 'gettingStarted',
-  //       href: '/docs/getting-started',
-  //     },
-  //     {
-  //       key: 'guides',
-  //       href: '/docs/guides',
-  //     },
-  //     {
-  //       key: 'apiReference',
-  //       href: '/docs/api',
-  //     },
-  //   ],
-  // }
 ];
 
 // 生产环境菜单配置
@@ -44,17 +26,6 @@ export const appConfig = {
   // 基础配置
   baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://reveimage.directory',
 
-  // 国际化配置
-  // - 英语 (en)
-  // - 简体中文 (zh)
-  // - 日语 (ja)
-  // - 韩语 (ko)
-  // - 法语 (fr)
-  // - 德语 (de)
-  // - 西班牙语 (es)
-  // - 意大利语 (it)
-  // - 土耳其语 (tr)
-  // - 波兰语 (pl)
   i18n: {
     locales: ["en", "zh", "ja", "ko", "fr", "de", "es", "it", "pt", "tr", "pl"] as const,
     defaultLocale: "en" as const,
@@ -83,6 +54,8 @@ export const appConfig = {
   // 菜单配置
   menu: process.env.NODE_ENV !== 'production' ? devMenu : prodMenu,
 };
+
+export const iconColor = "text-purple-500"
 
 // 辅助函数：检查是否为支持的语言
 function isSupportedLocale(locale: string): locale is typeof appConfig.i18n.locales[number] {
