@@ -12,7 +12,7 @@ export function Hero() {
 
   return (
     <section className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center gap-12">
-      <div className="flex-1 space-y-6">
+      <div className="flex-[1.6] space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           {t('mainTitle')}<br />{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{t('mainEyesOn')}</span>
@@ -36,15 +36,17 @@ export function Hero() {
           <span>{t('about')}</span>
         </div>
       </div>
-      <div className="flex-1 rounded-lg overflow-hidden shadow-purple-500/20 group">
-        <Image
-          src="/0.webp"
-          alt={t('heroImageAlt')}
-          width={500}
-          height={500}
-          priority
-          className="transition duration-300 group-hover:scale-105"
-        />
+      <div className="flex-[1] relative flex justify-center md:justify-end">
+        <div className="rounded-lg overflow-hidden shadow-purple-500/20 group">
+          <Image
+            src="/0.webp"
+            alt={t('heroImageAlt')}
+            width={500}
+            height={500}
+            priority
+            className="rounded-lg transition duration-300 group-hover:scale-105"
+          />
+        </div>
       </div>
     </section>
   )
