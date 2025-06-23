@@ -1,22 +1,18 @@
-import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
+import { CTA } from "@/components/cta"
 import { Features } from "@/components/features"
 import { Gallery } from "@/components/gallery"
-import { Tips } from "@/components/tips"
+import { Hero } from "@/components/hero"
 import { SeoContent } from "@/components/seo-content"
-import { CTA } from "@/components/cta"
-import { Footer } from "@/components/footer"
+import { Tips } from "@/components/tips"
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
-      <Header />
+    <div>
       <Hero />
       <Gallery />
       <Features />
       <Tips />
       <SeoContent />
       <CTA />
-      <Footer />
     </div>
   )
 }

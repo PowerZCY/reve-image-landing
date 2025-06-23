@@ -39,7 +39,7 @@ export default function LanguageSwitcher() {
                     size="icon"
                     className="bg-gradient-to-r from-purple-400 to-pink-600 hover:from-purple-500 hover:to-pink-700 text-white transform hover:scale-110 transition-all duration-300"
                 >
-                    <icons.Globe className="h-5 w-5" />
+                    <icons.Globe className="h-5 w-5 text-white" />
                 </LanguageButton>
             </DropdownMenuTrigger>
             <DropdownMenuContent

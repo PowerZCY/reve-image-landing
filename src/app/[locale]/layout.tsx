@@ -6,6 +6,8 @@ import { GoogleAnalyticsScript } from "@/components/script/GoogleAnalyticsScript
 import MicrosoftClarityScript from "@/components/script/MicrosoftClarityScript"
 import { Montserrat } from "next/font/google";
 import { cn } from '@/lib/utils';
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 const montserrat = Montserrat({
   weight: ['400'], // 400 是 Regular
@@ -69,9 +71,11 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
-        <body className={cn(montserrat.className)}>
+        <body className={cn(montserrat.className, "min-h-screen bg-gradient-to-b from-gray-900 to-black text-white")}>
+          <Header />
           {children}
-          </body>
+          <Footer />
+        </body>
         <GoogleAnalyticsScript />
         <MicrosoftClarityScript />
       </NextIntlClientProvider>
