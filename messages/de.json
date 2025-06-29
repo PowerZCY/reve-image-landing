@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
+        "banner": "Rethink | Redefine | Rebuild",
         "webTitle": "Reve Image Directory - Präsentation Schöner Bilder & Tipps",
         "webDescription": "Entdecken Sie atemberaubende KI-generierte Bilder und lernen Sie Expertentipps für die Erstellung schöner visueller Inhalte mit der leistungsstarken Text-zu-Bild-Technologie von Reve Image.",
         "keywords": "KI-Bildgenerierung, Text-zu-Bild, digitale Kunst, kreative Werkzeuge, Reve image"
@@ -10,6 +11,7 @@
         "mainEyesOn": "Reve Image",
         "description": "Verwandeln Sie Ihre Ideen in atemberaubende Visuals mit der KI-gestützten Bildgenerierung von Reve Image. Entfesseln Sie Ihre Kreativität mit hochmodernen Technologie.",
         "button": "Jetzt Starten",
+        "url": "https://preview.reve.art/",
         "about": "Genießen Sie täglich 20 kostenlose Bilder mit Reve Image",
         "heroImageAlt": "Von Reve Image KI generiertes Kunstwerk, das die Leistungsfähigkeit der Plattform demonstriert"
     },
@@ -112,7 +114,8 @@
         "eyesOn": "Reve Image",
         "description1": "Beginnen Sie noch heute mit der Generierung schöner Bilder mit Ihren 20 kostenlosen täglichen Kreationen.",
         "description2": "Keine Kreditkarte erforderlich.",
-        "button": "Jetzt Starten"
+        "button": "Jetzt Starten",
+        "url": "https://preview.reve.art/"
     },
     "languageDetection": {
         "title": "Spracherkennung",

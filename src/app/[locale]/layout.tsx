@@ -1,15 +1,20 @@
-import { appConfig } from "@/lib/appConfig";
+import { Footer } from "@windrun-huaiin/third-ui/main";
+import { i18n } from "@/i18n";
+import { appConfig, generatedLocales, showBanner } from "@/lib/appConfig";
+import { IconConfigProvider, SiteIcon } from "@windrun-huaiin/base-ui";
+import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components/client";
+import { FumaBannerSuit } from '@windrun-huaiin/third-ui/fuma/mdx';
+import { fumaI18nCn } from '@windrun-huaiin/third-ui/lib';
+import { GoToTop, NProgressBar } from '@windrun-huaiin/third-ui/main';
+import { HomeLayout } from 'fumadocs-ui/layouts/home';
+import { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
+import { RootProvider } from "fumadocs-ui/provider";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
-import './globals.css'
-import { GoogleAnalyticsScript } from "@/components/script/GoogleAnalyticsScript";
-import MicrosoftClarityScript from "@/components/script/MicrosoftClarityScript"
 import { Montserrat } from "next/font/google";
-import { cn } from '@/lib/utils';
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
+import './globals.css';
 
-const montserrat = Montserrat({
+export const montserrat = Montserrat({
   weight: ['400'], // 400 是 Regular
   subsets: ['latin'],
   display: 'swap',
@@ -57,6 +62,26 @@ export async function generateMetadata({
   }
 }
 
+async function baseOptions(locale: string): Promise<BaseLayoutProps> {
+  const t = await getTranslations({ locale: locale, namespace: 'home' });
+  return {
+    // 导航Header配置
+    nav: {
+      url: `/${locale}`,
+      title: (
+        <>
+          <SiteIcon />
+          <span className="font-medium [.uwu_&]:hidden [header_&]:text-[15px]">
+            {t('title')}
+          </span>
+        </>
+      ),
+      transparentMode: 'none',
+    },
+    // 导航Header, 语言切换
+    i18n,
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -68,13 +93,40 @@ export default async function RootLayout({
   const { locale } = await paramsPromise;  // 使用新名称
   setRequestLocale(locale);
   const messages = await getMessages();
+  const customeOptions = await baseOptions(locale);
   return (
     <html lang={locale} suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
-        <body className={cn(montserrat.className, "min-h-screen bg-gradient-to-b from-gray-900 to-black text-white")}>
-          <Header />
-          {children}
-          <Footer />
+        <body>
+          <NProgressBar />
+          <IconConfigProvider config={{ siteIcon: 'Zap' }}>
+            <RootProvider
+              i18n={{
+                locale: locale,
+                // available languages
+                locales: generatedLocales,
+                // translations for UI
+                translations: { fumaI18nCn }[locale],
+              }}
+            >
+              <HomeLayout
+                {...customeOptions}
+                searchToggle={{
+                  enabled: false,
+                }}
+                themeSwitch={{
+                  enabled: true,
+                  mode: 'light-dark-system',
+                }}
+                className={`dark:bg-neutral-950 dark:[--color-fd-background:var(--color-neutral-950)] pt-25 ${showBanner ? 'has-banner' : 'no-banner'}`}
+                >
+                <FumaBannerSuit showText={showBanner}/>
+                {children}
+                <Footer />
+                <GoToTop />
+              </HomeLayout>
+            </RootProvider>
+          </IconConfigProvider>
         </body>
         <GoogleAnalyticsScript />
         <MicrosoftClarityScript />

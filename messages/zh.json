@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
+        "banner": "再思 | 再议 | 再构",
         "webTitle": "Reve Image Directory - 展示优美图片和生图技巧",
         "webDescription": "探索精美的AI图片，学习使用Reve Image强大的文生图算法创建优美的图片。",
         "keywords": "AI 图像生成, 文本转图像, Reve Image, 免费图像生成"
@@ -10,6 +11,7 @@
         "mainEyesOn": "Reve Image",
         "description": "通过 Reve Image 的 AI 驱动的图像生成，将您的想法转化为令人惊叹的视觉效果。释放您的创造力，体验尖端技术。",
         "button": "立即开始",
+        "url": "https://preview.reve.art/",
         "about": "使用 Reve Image 每天享受 20 张免费图片",
         "heroImageAlt": "Reve Image AI 生成的艺术作品展示平台的强大功能"
     },
@@ -112,7 +114,8 @@
         "eyesOn": "Reve Image",
         "description1": "今天就开始生成美丽的图像，享受每日20次免费创作。",
         "description2": "无需信用卡。",
-        "button": "立即开始"
+        "button": "立即开始",
+        "url": "https://preview.reve.art/"
     },
     "languageDetection": {
         "title": "语言检测",

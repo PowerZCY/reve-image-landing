@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
+        "banner": "Rethink | Redefine | Rebuild",
         "webTitle": "Reve Image Directory - Mostra di Bellissime Immagini & Consigli",
         "webDescription": "Scopri immagini straordinarie generate dall'IA e impara consigli da esperti per creare bellissimi contenuti visivi con la potente tecnologia testo-in-immagine di Reve Image.",
         "keywords": "generazione immagini IA, testo in immagine, arte digitale, Reve Image"
@@ -10,6 +11,7 @@
         "mainEyesOn": "Reve Image",
         "description": "Trasforma le tue idee in straordinari effetti visivi con la generazione di immagini basata su IA di Reve Image. Libera la tua creatività con la tecnologia all'avanguardia.",
         "button": "Inizia Ora",
+        "url": "https://preview.reve.art/",
         "about": "Goditi 20 immagini gratuite al giorno con Reve Image",
         "heroImageAlt": "Opera d'arte generata dall'IA di Reve Image che dimostra la potenza della piattaforma"
     },
@@ -112,7 +114,8 @@
         "eyesOn": "Reve Image",
         "description1": "Inizia a generare bellissime immagini oggi con le tue 20 creazioni gratuite giornaliere.",
         "description2": "Nessuna carta di credito richiesta.",
-        "button": "Inizia Ora"
+        "button": "Inizia Ora",
+        "url": "https://preview.reve.art/"
     },
     "languageDetection": {
         "title": "Rilevamento Lingua",

@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
+        "banner": "Rethink | Redefine | Rebuild",
         "webTitle": "Reve Image Directory - Güzel Görseller ve İpuçları Vitrini",
         "webDescription": "Etkileyici yapay zeka üretimi görselleri keşfedin ve Reve Image'ın güçlü metin-görsel teknolojisiyle güzel görsel içerikler oluşturmak için uzman ipuçlarını öğrenin.",
         "keywords": "yapay zeka görsel oluşturma, metinden görsele, dijital sanat, Reve Image"
@@ -10,6 +11,7 @@
         "mainEyesOn": "Reve Image",
         "description": "Reve Image'ın yapay zeka destekli görsel oluşturma teknolojisiyle fikirlerinizi etkileyici görsellere dönüştürün. En son teknolojiyle yaratıcılığınızı özgür bırakın.",
         "button": "Başlayın",
+        "url": "https://preview.reve.art/",
         "about": "Reve Image ile günlük 20 ücretsiz görsel oluşturun",
         "heroImageAlt": "Reve Image yapay zekası tarafından oluşturulan, platformun gücünü gösteren sanat eseri"
     },
@@ -112,7 +114,8 @@
         "eyesOn": "Hazır mısınız",
         "description1": "Günlük 20 ücretsiz oluşturma hakkınızla bugün güzel görseller oluşturmaya başlayın.",
         "description2": "Kredi kartı gerekmez.",
-        "button": "Hemen Başlayın"
+        "button": "Hemen Başlayın",
+        "url": "https://preview.reve.art/"
     },
     "languageDetection": {
         "title": "Dil Algılama",

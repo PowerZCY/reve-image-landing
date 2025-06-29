@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 
-import { globalLucideIcons as icons } from '@/components/global-icon'
+import { globalLucideIcons as icons } from '@windrun-huaiin/base-ui'
 import { useTranslations } from 'next-intl'
 import Image from "next/image"
-import { GradientButton } from "./gradient-button"
+import { GradientButton } from "@windrun-huaiin/third-ui/fuma/mdx"
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -21,7 +21,7 @@ export function Hero() {
         </p>
         <GradientButton
           title={t('button')}
-          href="https://preview.reve.art/"
+          href={t('url')}
         />
         <div className="flex items-center gap-2 text-sm text-gray-400">
           <icons.Zap className="h-4 w-4" />

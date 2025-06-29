@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
+        "banner": "Rethink | Redefine | Rebuild",
         "webTitle": "Reve Image Directory- 아름다운 이미지와 생성 팁 쇼케이스",
         "webDescription": "멋진 AI 생성 이미지를 발견하고 Reve Image의 강력한 텍스트-투-이미지 기술로 아름다운 시각적 콘텐츠를 만드는 전문 팁을 배워보세요.",
         "keywords": "AI 이미지 생성, 텍스트-투-이미지, 디지털 아트, Reve Image"
@@ -10,6 +11,7 @@
         "mainEyesOn": "Reve Image",
         "description": "Reve Image의 AI 기반 이미지 생성으로 아이디어를 멋진 시각적 효과로 변환하세요. Reve Image의 최첨단 기술로 창의성을 발휘해보세요.",
         "button": "Reve Image 시작하기",
+        "url": "https://preview.reve.art/",
         "about": "Reve Image로 매일 20장의 무료 이미지를 즐기세요",
         "heroImageAlt": "Reve Image AI가 생성한 아트워크가 Reve Image 플랫폼의 강력한 기능을 보여줍니다"
     },
@@ -112,7 +114,8 @@
         "eyesOn": "창작할 준비가 되셨나요",
         "description1": "오늘부터 Reve Image로 아름다운 이미지 생성을 시작하고 매일 Reve Image의 20회 무료 창작을 즐기세요.",
         "description2": "Reve Image 사용에 신용카드가 필요하지 않습니다.",
-        "button": "지금 Reve Image 시작하기"
+        "button": "지금 Reve Image 시작하기",
+        "url": "https://preview.reve.art/"
     },
     "languageDetection": {
         "title": "언어 감지",

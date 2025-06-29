@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
+        "banner": "Rethink | Redefine | Rebuild",
         "webTitle": "Reve Image Directory- 美しい画像と生成のヒントを紹介",
         "webDescription": "美しいAI生成画像を発見し、Reve Imageの強力なテキストから画像への技術で視覚的コンテンツを作成するエキスパートのヒントを学びましょう。",
         "keywords": "AI画像生成, テキストから画像, デジタルアート, Reve Image"
@@ -10,6 +11,7 @@
         "mainEyesOn": "Reve Image",
         "description": "Reve ImageのAIパワード画像生成で、あなたのアイデアを息をのむような視覚効果に変換します。最先端技術で創造性を解き放ちましょう。",
         "button": "始めましょう",
+        "url": "https://preview.reve.art/",
         "about": "Reve Imageで毎日20枚の無料画像を楽しもう",
         "heroImageAlt": "Reve Image AIが生成したアートワークがプラットフォームの力を示しています"
     },
@@ -112,7 +114,8 @@
         "eyesOn": "Reve Image",
         "description1": "今日から美しい画像の生成を始め、毎日20回の無料創作をお楽しみください。",
         "description2": "クレジットカード不要。",
-        "button": "今すぐ始める"
+        "button": "今すぐ始める",
+        "url": "https://preview.reve.art/"
     },
     "languageDetection": {
         "title": "言語検出",

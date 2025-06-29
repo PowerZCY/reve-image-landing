@@ -1,9 +1,12 @@
-import { CTA } from "@/components/cta"
-import { Features } from "@/components/features"
-import { Gallery } from "@/components/gallery"
-import { Hero } from "@/components/hero"
-import { SeoContent } from "@/components/seo-content"
-import { Tips } from "@/components/tips"
+import { Hero } from "@/components/hero";
+import {
+  CTA,
+  Features,
+  Gallery,
+  SeoContent,
+  Tips,
+} from "@windrun-huaiin/third-ui";
+
 export default function Home() {
   return (
     <div>
@@ -14,6 +17,5 @@ export default function Home() {
       <SeoContent />
       <CTA />
     </div>
-  )
+  );
 }
-
