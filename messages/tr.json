@@ -1,7 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
-        "banner": "Rethink | Redefine | Rebuild",
+        "banner": "Yeniden Düşün | Yeniden Tanımla | Yeniden Yapılandır",
         "webTitle": "Reve Image Directory - Güzel Görseller ve İpuçları Vitrini",
         "webDescription": "Etkileyici yapay zeka üretimi görselleri keşfedin ve Reve Image'ın güçlü metin-görsel teknolojisiyle güzel görsel içerikler oluşturmak için uzman ipuçlarını öğrenin.",
         "keywords": "yapay zeka görsel oluşturma, metinden görsele, dijital sanat, Reve Image"
@@ -122,5 +122,15 @@
         "description": "Şu dile geçmek ister misiniz",
         "close": "Hayır, teşekkürler",
         "changeAction": "Evet, değiştir"
-    }
+    },
+    "footer": {
+    "company": "WindRun · Huaiin",
+    "copyright": "Copyright © {year} {name} All rights reserved.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "dpa": "Data Protection Agreement",
+    "sitemap": "Sitemap",
+    "contact": "Contact Us",
+    "thanks": "Thanks to"
+  }
 }

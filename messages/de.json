@@ -1,7 +1,7 @@
 {
     "home": {
         "title": "Reve Image Directory",
-        "banner": "Rethink | Redefine | Rebuild",
+        "banner": "Nachdenken | Neudefinieren | Neubauen",
         "webTitle": "Reve Image Directory - Präsentation Schöner Bilder & Tipps",
         "webDescription": "Entdecken Sie atemberaubende KI-generierte Bilder und lernen Sie Expertentipps für die Erstellung schöner visueller Inhalte mit der leistungsstarken Text-zu-Bild-Technologie von Reve Image.",
         "keywords": "KI-Bildgenerierung, Text-zu-Bild, digitale Kunst, kreative Werkzeuge, Reve image"
@@ -122,5 +122,15 @@
         "description": "Möchten Sie wechseln zu",
         "close": "Nein, danke",
         "changeAction": "Ja, wechseln"
-    }
+    },
+    "footer": {
+    "company": "WindRun · Huaiin",
+    "copyright": "Copyright © {year} {name} All rights reserved.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "dpa": "Data Protection Agreement",
+    "sitemap": "Sitemap",
+    "contact": "Contact Us",
+    "thanks": "Thanks to"
+  }
 }
