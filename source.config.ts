@@ -12,30 +12,6 @@ import type { ShikiTransformerContext as TransformerContext } from 'shiki';
 
 const mdxSourceDir = appConfig.mdxSourceDir
 
-export const docs = defineDocs({
-  dir: mdxSourceDir.docs,
-  docs: {
-    async: false,
-    // @ts-ignore - Temporarily suppress deep instantiation error
-    schema: createCommonDocsSchema(),
-  },
-  meta: {
-    schema: createCommonMetaSchema(),
-  },
-});
-
-export const blog = defineDocs({
-  dir: mdxSourceDir.blog,
-  docs: {
-    async: false,
-    // @ts-ignore - Temporarily suppress deep instantiation error
-    schema: createCommonDocsSchema(),
-  },
-  meta: {
-    schema: createCommonMetaSchema(),
-  },
-});
-
 export const legal = defineDocs({
   dir: mdxSourceDir.legal,
   docs: {
@@ -49,7 +25,7 @@ export const legal = defineDocs({
 });
 
 export default defineConfig({
-  lastModifiedTime: 'git',
+  lastModifiedTime: 'none',
   mdxOptions: {
     providerImportSource: '@/components/mdx-components',
     // 禁用 remark-image 的默认行为, 图片统一使用远程URL
