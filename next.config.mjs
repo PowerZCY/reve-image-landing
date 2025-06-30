@@ -34,9 +34,9 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   experimental: {
-    webpackBuildWorker: true,
-    parallelServerBuildTraces: true,
-    parallelServerCompiles: true,
+    webpackBuildWorker: false,
+    parallelServerBuildTraces: false,
+    parallelServerCompiles: false,
   },
 };
 
