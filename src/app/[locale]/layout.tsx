@@ -14,13 +14,11 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { Montserrat } from "next/font/google";
 import './globals.css';
 
-const montserrat = Montserrat({
+const _montserrat = Montserrat({
   weight: ['400'], // 400 是 Regular
   subsets: ['latin'],
   display: 'swap',
 });
-
-console.log(montserrat.className);
 
 export const dynamic = 'force-dynamic'
 
