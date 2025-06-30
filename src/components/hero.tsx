@@ -16,14 +16,14 @@ export function Hero() {
           {t('mainTitle')}<br />{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{t('mainEyesOn')}</span>
         </h1>
-        <p className="text-lg text-gray-300 max-w-2xl">
+        <p className="text-lg text-gray-400 max-w-2xl">
           {t('description')}
         </p>
         <GradientButton
           title={t('button')}
           href={t('url')}
         />
-        <div className="flex items-center gap-2 text-sm text-gray-400">
+        <div className="flex items-center gap-2 text-sm text-gray-500">
           <icons.Zap className="h-4 w-4" />
           <span>{t('about')}</span>
         </div>
