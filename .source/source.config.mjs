@@ -7,7 +7,7 @@ var { isSupportedLocale, getValidLocale, generatedLocales } = createI18nHelpers(
 var { iconColor, placeHolderImage, showBanner } = appConfig.shortcuts;
 
 // source.config.ts
-import { createCommonDocsSchema, createCommonMetaSchema, remarkInstallOptions } from "@windrun-huaiin/third-ui/lib";
+import { createCommonDocsSchema, createCommonMetaSchema, remarkInstallOptions } from "@windrun-huaiin/third-ui/lib/server";
 import { rehypeCodeDefaultOptions, remarkSteps } from "fumadocs-core/mdx-plugins";
 import { fileGenerator, remarkDocGen, remarkInstall } from "fumadocs-docgen";
 import { remarkTypeScriptToJavaScript } from "fumadocs-docgen/remark-ts2js";

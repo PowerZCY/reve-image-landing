@@ -1,6 +1,6 @@
 import { legal } from '.source';
 import { i18n } from '@/i18n';
-import { getIconElement } from '@windrun-huaiin/base-ui';
+import { getIconElement } from '@windrun-huaiin/base-ui/components/server';
 import { InferMetaType, InferPageType, loader } from 'fumadocs-core/source';
 
 export const legalSource = loader({

@@ -1,6 +1,6 @@
 // @ts-nocheck -- skip type checking
-import * as legal_1 from "../src/mdx/legal/terms.mdx?collection=legal&hash=1751185800701"
-import * as legal_0 from "../src/mdx/legal/privacy.mdx?collection=legal&hash=1751185800701"
+import * as legal_1 from "../src/mdx/legal/terms.mdx?collection=legal&hash=1751285930820"
+import * as legal_0 from "../src/mdx/legal/privacy.mdx?collection=legal&hash=1751285930820"
 import { _runtime } from "fumadocs-mdx"
 import * as _source from "../source.config"
 export const blog = _runtime.docs<typeof _source.blog>([], [])

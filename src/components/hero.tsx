@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 
-import { globalLucideIcons as icons } from '@windrun-huaiin/base-ui'
+import { globalLucideIcons as icons } from '@windrun-huaiin/base-ui/components/server'
 import { useTranslations } from 'next-intl'
 import Image from "next/image"
 import { GradientButton } from "@windrun-huaiin/third-ui/fuma/mdx"

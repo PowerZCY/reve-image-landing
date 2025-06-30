@@ -1,24 +1,26 @@
 import { Footer } from "@windrun-huaiin/third-ui/main";
 import { i18n } from "@/i18n";
 import { appConfig, generatedLocales, showBanner } from "@/lib/appConfig";
-import { IconConfigProvider, SiteIcon } from "@windrun-huaiin/base-ui";
-import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components/client";
+import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components";
 import { FumaBannerSuit } from '@windrun-huaiin/third-ui/fuma/mdx';
-import { fumaI18nCn } from '@windrun-huaiin/third-ui/lib';
+import { fumaI18nCn } from '@windrun-huaiin/third-ui/lib/server';
 import { GoToTop, NProgressBar } from '@windrun-huaiin/third-ui/main';
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
 import { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 import { RootProvider } from "fumadocs-ui/provider";
 import { NextIntlClientProvider } from 'next-intl';
+import { SiteIcon } from "@/lib/site-config";
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { Montserrat } from "next/font/google";
 import './globals.css';
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   weight: ['400'], // 400 是 Regular
   subsets: ['latin'],
   display: 'swap',
 });
+
+console.log(montserrat.className);
 
 export const dynamic = 'force-dynamic'
 
@@ -99,7 +101,6 @@ export default async function RootLayout({
       <NextIntlClientProvider messages={messages}>
         <body>
           <NProgressBar />
-          <IconConfigProvider config={{ siteIcon: 'Zap' }}>
             <RootProvider
               i18n={{
                 locale: locale,
@@ -126,7 +127,6 @@ export default async function RootLayout({
                 <GoToTop />
               </HomeLayout>
             </RootProvider>
-          </IconConfigProvider>
         </body>
         <GoogleAnalyticsScript />
         <MicrosoftClarityScript />

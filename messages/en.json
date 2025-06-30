@@ -122,5 +122,15 @@
         "description": "Would you like to switch to",
         "close": "No, thanks",
         "changeAction": "Yes, switch"
-    }
+    },
+    "footer": {
+    "company": "WindRun · Huaiin",
+    "copyright": "Copyright © {year} {name} All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "dpa": "Data Protection Agreement",
+    "sitemap": "Sitemap",
+    "contact": "Contact Us",
+    "thanks": "Thanks to"
+  }
 }

@@ -17,7 +17,7 @@ import { TypeTable } from "fumadocs-ui/components/type-table";
 import { createGenerator as createTypeTableGenerator } from "fumadocs-typescript";
 import { AutoTypeTable } from "fumadocs-typescript/ui";
 
-import { globalLucideIcons as icons } from "@windrun-huaiin/base-ui";
+import { globalLucideIcons as icons } from "@windrun-huaiin/base-ui/components/server";
 import { appConfig } from "@/lib/appConfig";
 
 // 创建一个语言标识符到图标组件的映射
