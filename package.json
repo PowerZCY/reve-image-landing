@@ -1,6 +1,6 @@
 {
   "name": "reve-image",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "postinstall": "fumadocs-mdx",
@@ -13,7 +13,6 @@
     "easy-changeset": "dev-scripts easy-changeset",
     "dj": "pnpm run easy-changeset && pnpm changeset status",
     "djv": "pnpm changeset version",
-    "djvp": "pnpm changeset publish",
     "generate-blog-index": "dev-scripts generate-blog-index -v",
     "check-translations": "dev-scripts check-translations -v",
     "clean-translations": "dev-scripts clean-translations -v",
