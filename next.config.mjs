@@ -38,6 +38,23 @@ const nextConfig = {
     parallelServerBuildTraces: false,
     parallelServerCompiles: false,
   },
+  webpack(config, { isServer }) {
+    config.plugins.push(
+      new (class {
+        apply(compiler) {
+          compiler.hooks.emit.tap('BigStringDetectPlugin', (compilation) => {
+            for (const filename in compilation.assets) {
+              const source = compilation.assets[filename].source();
+              if (typeof source === 'string' && source.length > 100 * 1024) {
+                console.log('[Warning Big String]', filename, '大小:', (source.length / 1024).toFixed(1), 'KB');
+              }
+            }
+          });
+        }
+      })()
+    );
+    return config;
+  },
 };
 
 export default withNextIntl(withMDX(nextConfig));

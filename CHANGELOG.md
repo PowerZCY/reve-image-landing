@@ -1,5 +1,15 @@
 # reve-image
 
+## 1.0.2
+
+### Patch Changes
+
+- feat(config): add BigStringDetectPlugin to warn about large assets
+
+  - Implemented a Webpack plugin to log warnings for assets exceeding 100KB
+  - Updated third-ui package version to 5.1.5
+  - Updated dependencies in pnpm-lock.yaml for compatibility
+
 ## 1.0.1
 
 ### Patch Changes
