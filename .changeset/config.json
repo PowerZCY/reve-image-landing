@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/@changesets/config@3.1.1/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": true,
-  "commitMessageFormat": "🚀{name}@{version} ({type})",
+  "commitMessageFormat": "🚀release {name}@{version} ({type})",
   "fixed": [],
   "linked": [],
   "access": "public",
