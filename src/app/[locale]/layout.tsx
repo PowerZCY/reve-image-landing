@@ -99,32 +99,32 @@ export default async function RootLayout({
       <NextIntlClientProvider messages={messages}>
         <body>
           <NProgressBar />
-            <RootProvider
-              i18n={{
-                locale: locale,
-                // available languages
-                locales: generatedLocales,
-                // translations for UI
-                translations: { fumaI18nCn }[locale],
+          <RootProvider
+            i18n={{
+              locale: locale,
+              // available languages
+              locales: generatedLocales,
+              // translations for UI
+              translations: { fumaI18nCn }[locale],
+            }}
+          >
+            <HomeLayout
+              {...customeOptions}
+              searchToggle={{
+                enabled: false,
               }}
-            >
-              <HomeLayout
-                {...customeOptions}
-                searchToggle={{
-                  enabled: false,
-                }}
-                themeSwitch={{
-                  enabled: true,
-                  mode: 'light-dark-system',
-                }}
-                className={`dark:bg-neutral-950 dark:[--color-fd-background:var(--color-neutral-950)] pt-25 ${showBanner ? 'has-banner' : 'no-banner'}`}
-                >
-                <FumaBannerSuit showText={showBanner}/>
-                {children}
-                <Footer />
-                <GoToTop />
-              </HomeLayout>
-            </RootProvider>
+              themeSwitch={{
+                enabled: true,
+                mode: 'light-dark-system',
+              }}
+              className={`dark:bg-neutral-950 dark:[--color-fd-background:var(--color-neutral-950)] pt-25 ${showBanner ? 'has-banner' : 'no-banner'}`}
+              >
+              <FumaBannerSuit showText={showBanner}/>
+              {children}
+              <Footer />
+              <GoToTop />
+            </HomeLayout>
+          </RootProvider>
         </body>
         <GoogleAnalyticsScript />
         <MicrosoftClarityScript />
