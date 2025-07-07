@@ -18,21 +18,22 @@
     "features": {
         "title": "Warum",
         "eyesOn": "Reve Image",
+        "description": "",
         "items": [
             {
                 "title": "Hochwertige Ausgabe",
                 "description": "Reve Image erzeugt atemberaubende, detaillierte Bilder, die mit professionellen Kunstwerken konkurrieren.",
-                "icon": "✨"
+                "icon": "Sparkles"
             },
             {
                 "title": "20 Kostenlose Bilder Täglich",
                 "description": "Genießen Sie ein großzügiges tägliches Kontingent von 20 kostenlosen Bildern mit Ihrem Reve Image-Konto.",
-                "icon": "🎁"
+                "icon": "Gift"
             },
             {
                 "title": "Intuitive Prompts",
                 "description": "Die fortschrittliche KI versteht natürliche Sprache und macht es einfach, Ihre Vision zu beschreiben.",
-                "icon": "💬"
+                "icon": "MessageCircleMore"
             }
         ]
     },
@@ -84,6 +85,7 @@
     "seoContent": {
         "title": "KI-Bildgenerierung meistern mit ",
         "eyesOn": "Reve Image",
+        "description": "",
         "intro": "Reve Image steht an der Spitze der KI-Bildgenerierungstechnologie und bietet Benutzern die Möglichkeit, Textbeschreibungen in atemberaubende visuelle Inhalte umzuwandeln. Ob Sie ein Designer auf der Suche nach Inspiration sind, ein Vermarkter, der Inhalte erstellt, oder ein Künstler, der neue Medien erkundet, Reve Image bietet die Werkzeuge, um Ihre Vorstellungskraft zum Leben zu erwecken.",
         "sections": [
             {
@@ -130,7 +132,8 @@
     "terms": "Nutzungsbedingungen",
     "dpa": "Data Protection Agreement",
     "sitemap": "Sitemap",
-    "contact": "Contact Us",
+    "contactUs": "Contact Us",
+    "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
   }
 }

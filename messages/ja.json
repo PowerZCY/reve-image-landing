@@ -18,21 +18,22 @@
     "features": {
         "title": "選ばれる理由",
         "eyesOn": "Reve Image",
+        "description": "",
         "items": [
             {
                 "title": "高品質な出力",
                 "description": "Reve Imageは、プロのアートワークに匹敵する見事な詳細な画像を生成します。",
-                "icon": "✨"
+                "icon": "Sparkles"
             },
             {
                 "title": "毎日20枚の無料画像",
                 "description": "Reve Imageアカウントで、毎日20枚の無料画像を気前よく提供します。",
-                "icon": "🎁"
+                "icon": "Gift"
             },
             {
                 "title": "直感的なプロンプト",
                 "description": "先進的なAIは自然言語を理解し、あなたのビジョンを簡単に描写できます。",
-                "icon": "💬"
+                "icon": "MessageCircleMore"
             }
         ]
     },
@@ -84,6 +85,7 @@
     "seoContent": {
         "title": "AI画像生成をマスターする - ",
         "eyesOn": "Reve Image",
+        "description": "",
         "intro": "Reve Imageは、AI画像生成技術の最先端を代表し、ユーザーにテキスト説明を魅力的なビジュアルコンテンツに変換する能力を提供します。インスピレーションを求めるデザイナー、コンテンツを作成するマーケター、新しいメディアを探求するアーティストなど、Reve Imageはあなたの想像力を現実にする道具を提供します。",
         "sections": [
             {
@@ -130,7 +132,8 @@
     "terms": "利用規約",
     "dpa": "Data Protection Agreement",
     "sitemap": "Sitemap",
-    "contact": "Contact Us",
+    "contactUs": "Contact Us",
+    "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
   }
 }

@@ -1,10 +1,9 @@
-import { Footer } from "@windrun-huaiin/third-ui/main";
+import { Footer, GoToTop, NProgressBar } from "@windrun-huaiin/third-ui/main";
 import { i18n } from "@/i18n";
 import { appConfig, generatedLocales, showBanner } from "@/lib/appConfig";
 import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components";
 import { FumaBannerSuit } from '@windrun-huaiin/third-ui/fuma/mdx';
 import { fumaI18nCn } from '@windrun-huaiin/third-ui/lib/server';
-import { GoToTop, NProgressBar } from '@windrun-huaiin/third-ui/main';
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
 import { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 import { RootProvider } from "fumadocs-ui/provider";

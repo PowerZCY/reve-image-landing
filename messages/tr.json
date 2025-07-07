@@ -18,21 +18,22 @@
     "features": {
         "title": "Neden",
         "eyesOn": "Reve Image",
+        "description": "",
         "items": [
             {
                 "title": "Yüksek Kaliteli Çıktı",
                 "description": "Reve Image, profesyonel sanat eserleriyle yarışan etkileyici, detaylı görseller üretir.",
-                "icon": "✨"
+                "icon": "Sparkles"
             },
             {
                 "title": "Günlük 20 Ücretsiz Görsel",
                 "description": "Reve Image hesabınızla günlük 20 ücretsiz görsel oluşturma hakkından yararlanın.",
-                "icon": "🎁"
+                "icon": "Gift"
             },
             {
                 "title": "Sezgisel Promptlar",
                 "description": "Gelişmiş yapay zeka doğal dili anlayarak vizyonunuzu kolayca tanımlamanızı sağlar.",
-                "icon": "💬"
+                "icon": "MessageCircleMore"
             }
         ]
     },
@@ -84,6 +85,7 @@
     "seoContent": {
         "title": "Yapay Zeka Görsel Oluşturmada Ustalaşın - ",
         "eyesOn": "Reve Image",
+        "description": "",
         "intro": "Reve Image, yapay zeka görsel oluşturma teknolojisinin öncüsü olarak, kullanıcılara metin açıklamalarını etkileyici görsel içeriğe dönüştürme yeteneği sunar. İster ilham arayan bir tasarımcı, ister içerik oluşturan bir pazarlamacı, ister yeni medyaları keşfeden bir sanatçı olun, Reve Image hayal gücünüzü hayata geçirmek için gereken araçları sağlar.",
         "sections": [
             {
@@ -130,7 +132,8 @@
     "terms": "Hizmet Şartları",
     "dpa": "Data Protection Agreement",
     "sitemap": "Sitemap",
-    "contact": "Contact Us",
+    "contactUs": "Contact Us",
+    "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
   }
 }

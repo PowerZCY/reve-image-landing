@@ -18,21 +18,22 @@
     "features": {
         "title": "Dlaczego Warto Wybrać",
         "eyesOn": "Reve Image",
+        "description": "",
         "items": [
             {
                 "title": "Wysoka Jakość Wyjściowa",
                 "description": "Reve Image tworzy oszałamiające, szczegółowe obrazy, które konkurują z profesjonalnymi dziełami sztuki.",
-                "icon": "✨"
+                "icon": "Sparkles"
             },
             {
                 "title": "20 Darmowych Obrazów Dziennie",
                 "description": "Ciesz się hojnym dziennym limitem 20 darmowych obrazów ze swoim kontem Reve Image.",
-                "icon": "🎁"
+                "icon": "Gift"
             },
             {
                 "title": "Intuicyjne Prompty",
                 "description": "Zaawansowana AI rozumie język naturalny, ułatwiając opisanie Twojej wizji.",
-                "icon": "💬"
+                "icon": "MessageCircleMore"
             }
         ]
     },
@@ -84,6 +85,7 @@
     "seoContent": {
         "title": "Opanuj Generowanie Obrazów AI z ",
         "eyesOn": "Reve Image",
+        "description": "",
         "intro": "Reve Image reprezentuje czołówkę technologii generowania obrazów AI, oferując użytkownikom możliwość przekształcania opisów tekstowych w oszałamiające treści wizualne. Niezależnie od tego, czy jesteś projektantem szukającym inspiracji, marketerem tworzącym treści, czy artystą eksplorującym nowe media, Reve Image dostarcza narzędzia do ożywienia Twojej wyobraźni.",
         "sections": [
             {
@@ -130,7 +132,8 @@
     "terms": "Warunki Użycia",
     "dpa": "Data Protection Agreement",
     "sitemap": "Sitemap",
-    "contact": "Contact Us",
+    "contactUs": "Contact Us",
+    "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
   }
 }
