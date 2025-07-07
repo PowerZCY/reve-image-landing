@@ -1,5 +1,11 @@
 # reve-image
 
+## 1.2.0
+
+### Minor Changes
+
+- feat(ddaas): update UI from ddaas
+
 ## 1.1.0
 
 ### Minor Changes

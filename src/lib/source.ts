@@ -12,3 +12,7 @@ export const legalSource = loader({
 
 export type Page = InferPageType<typeof legalSource>;
 export type Meta = InferMetaType<typeof legalSource>;
+
+export const mdxSourceMap = {
+  legal: legalSource
+}

@@ -1,16 +1,16 @@
 import { getMDXComponents } from '@/components/mdx-components';
 import { appConfig } from '@/lib/appConfig';
-import { legalSource } from '@/lib/source';
-import { createFumaPage } from '@windrun-huaiin/third-ui/fuma/server';
 import { SiteIcon } from '@/lib/site-config';
+import { mdxSourceMap } from '@/lib/source';
 import { NotFoundPage } from '@windrun-huaiin/base-ui/components';
-
+import { createFumaPage } from '@windrun-huaiin/third-ui/fuma/server';
+const sourceKey = 'legal';
 const { Page, generateStaticParams, generateMetadata } = createFumaPage({
-  mdxContentSource: legalSource,
+  sourceKey: sourceKey,
+  mdxContentSource: mdxSourceMap[sourceKey],
   getMDXComponents,
-  mdxSourceDir: appConfig.mdxSourceDir.legal,
+  mdxSourceDir: appConfig.mdxSourceDir[sourceKey],
   githubBaseUrl: appConfig.githubBaseUrl,
-  showCopy: false,
   siteIcon: <SiteIcon />,
   FallbackPage: NotFoundPage,
 });
