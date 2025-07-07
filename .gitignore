@@ -72,24 +72,28 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+# dotenv environment variable files (anywhere)
+**/.env
+**/.env.*
+!**/.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
 
-# Next.js build output
-.next
-out
+# Build outputs (anywhere in project)
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/esm/
+**/cjs/
 
-# Nuxt.js build / generate output
-.nuxt
-dist
+# Framework specific outputs
+**/.nuxt/
+**/.docusaurus/
+**/.vuepress/dist/
+**/storybook-static/
 
 # Gatsby files
 .cache/
@@ -97,16 +101,9 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
-.vuepress/dist
-
 # vuepress v2.x temp and cache directory
 .temp
 .cache
-.turbo
-
-# Docusaurus cache and generated files
-.docusaurus
 
 # Serverless directories
 .serverless/
@@ -129,10 +126,50 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-.DS_Store
-data/json/tmp*
 
-# Ignore all files in .changeset except config.json and README.md
+# pnpm workspace
+.pnpm-store/
+.pnpm/
+**/pnpm-debug.log
+
+# Test coverage (anywhere)
+**/coverage/
+
+# Changeset files (if using changesets for versioning)
 .changeset/*
 !.changeset/config.json
 !.changeset/README.md
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Legacy source files (from fumadocs)
+.source/index.ts
+.source/source.config.mjs
+
+# Backup files
+*.bak
+*.backup
+
+# Turbo cache
+**/.turbo
+
