@@ -131,3 +131,8 @@ dist
 .pnp.*
 .DS_Store
 data/json/tmp*
+
+# Ignore all files in .changeset except config.json and README.md
+.changeset/*
+!.changeset/config.json
+!.changeset/README.md
