@@ -1,5 +1,11 @@
 # reve-image
 
+## 1.3.0
+
+### Minor Changes
+
+- feat(mdx): update mdx base component
+
 ## 1.2.0
 
 ### Minor Changes
