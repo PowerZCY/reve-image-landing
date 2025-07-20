@@ -39,6 +39,7 @@ const nextConfig = {
     parallelServerCompiles: false,
   },
   webpack(config, { isServer }) {
+    // 现有的插件
     config.plugins.push(
       new (class {
         apply(compiler) {
@@ -53,6 +54,38 @@ const nextConfig = {
         }
       })()
     );
+
+    // 优化 shiki 语言包 - 只加载常用语言
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      // 只加载最常用的几种语言，大幅减少包大小
+      '@shikijs/langs': '@shikijs/langs/dist/json/typescript.json',
+    };
+
+    // 进一步优化：排除不需要的 shiki 主题
+    config.module.rules.push({
+      test: /node_modules\/@shikijs\/themes/,
+      use: {
+        loader: 'string-replace-loader',
+        options: {
+          multiple: [
+            {
+              search: /"name":"[^"]*"/g,
+              replace: (match) => {
+                // 只保留常用的主题
+                const allowedThemes = ['github-dark', 'github-light', 'nord'];
+                const themeName = match.match(/"name":"([^"]*)"/)?.[1];
+                if (themeName && !allowedThemes.includes(themeName)) {
+                  return '"name":"disabled"';
+                }
+                return match;
+              },
+            },
+          ],
+        },
+      },
+    });
+
     return config;
   },
 };

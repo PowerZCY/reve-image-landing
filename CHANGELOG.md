@@ -1,5 +1,11 @@
 # reve-image
 
+## 1.4.0
+
+### Minor Changes
+
+- fix(mdx): limit shiki dependency package size by next.config.mjs
+
 ## 1.3.0
 
 ### Minor Changes
