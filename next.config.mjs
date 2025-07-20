@@ -45,8 +45,8 @@ const nextConfig = {
           compiler.hooks.emit.tap('BigStringDetectPlugin', (compilation) => {
             for (const filename in compilation.assets) {
               const source = compilation.assets[filename].source();
-              if (typeof source === 'string' && source.length > 100 * 1024) {
-                console.log('[Warning Big String]', filename, '大小:', (source.length / 1024).toFixed(1), 'KB');
+              if (typeof source === 'string' && source.length > 3000 * 1024) {
+                console.log('[Warning Big String]', filename, 'SIZE:', (source.length / 1024 / 1024).toFixed(1), 'MB');
               }
             }
           });
