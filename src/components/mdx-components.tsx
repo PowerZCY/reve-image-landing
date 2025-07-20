@@ -7,6 +7,7 @@ import {
   ZiaCard,
 } from "@windrun-huaiin/third-ui/fuma/mdx";
 import { Accordion, Accordions } from "fumadocs-ui/components/accordion";
+import { CodeBlock, Pre } from "fumadocs-ui/components/codeblock";
 import { Callout } from "fumadocs-ui/components/callout";
 import { File, Files, Folder } from "fumadocs-ui/components/files";
 import { Tab, Tabs } from "fumadocs-ui/components/tabs";
@@ -18,6 +19,8 @@ import { globalLucideIcons as icons } from "@windrun-huaiin/base-ui/components/s
 
 // Object containing globally available Fumadocs UI components
 const fumadocsUiComponents = {
+  CodeBlock,
+  Pre,
   Callout,
   File,
   Folder,
