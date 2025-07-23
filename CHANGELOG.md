@@ -1,5 +1,11 @@
 # reve-image
 
+## 1.4.1
+
+### Patch Changes
+
+- feat(dependency): update
+
 ## 1.4.0
 
 ### Minor Changes
