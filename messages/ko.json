@@ -13,6 +13,7 @@
         "button": "Reve Image 시작하기",
         "url": "https://preview.reve.art/",
         "about": "Reve Image로 매일 20장의 무료 이미지를 즐기세요",
+        "heroImageUrl": "https://r2.d8ger.com/default.webp",
         "heroImageAlt": "Reve Image AI가 생성한 아트워크가 Reve Image 플랫폼의 강력한 기능을 보여줍니다"
     },
     "features": {
@@ -43,13 +44,32 @@
         "titleR": "작품 갤러리",
         "description": "Reve Image의 놀라운 가능성을 탐험해보세요. 아래의 각 이미지는 Reve Image AI 기술을 사용하여 해당 프롬프트로 생성되었습니다.",
         "button": "Reve Image로 나만의 이미지 만들기",
+        "defaultImgUrl": "https://r2.d8ger.com/default.webp",
         "prompts": [
-            "A futuristic cityscape with flying vehicles and neon lights",
-            "A serene mountain landscape at sunset with a lake reflection",
-            "A magical forest with glowing plants and mystical creatures",
-            "An underwater scene with colorful coral reefs and exotic fish",
-            "A steampunk-inspired mechanical dragon with brass gears",
-            "A cosmic scene with planets, nebulae, and a spaceship"
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/1.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/2.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/3.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/4.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/5.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/6.webp",
+            "altMsg": ""
+          }
         ]
     },
     "tips": {

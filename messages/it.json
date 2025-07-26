@@ -13,6 +13,7 @@
         "button": "Inizia Ora",
         "url": "https://preview.reve.art/",
         "about": "Goditi 20 immagini gratuite al giorno con Reve Image",
+        "heroImageUrl": "https://r2.d8ger.com/default.webp",
         "heroImageAlt": "Opera d'arte generata dall'IA di Reve Image che dimostra la potenza della piattaforma"
     },
     "features": {
@@ -43,13 +44,32 @@
         "titleR": "Creazioni",
         "description": "Esplora le incredibili possibilità con Reve Image. Ogni immagine qui sotto è stata generata utilizzando la tecnologia IA con il prompt corrispondente.",
         "button": "Crea le Tue Immagini",
+        "defaultImgUrl": "https://r2.d8ger.com/default.webp",
         "prompts": [
-            "A futuristic cityscape with flying vehicles and neon lights",
-            "A serene mountain landscape at sunset with a lake reflection",
-            "A magical forest with glowing plants and mystical creatures",
-            "An underwater scene with colorful coral reefs and exotic fish",
-            "A steampunk-inspired mechanical dragon with brass gears",
-            "A cosmic scene with planets, nebulae, and a spaceship"
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/1.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/2.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/3.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/4.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/5.webp",
+            "altMsg": ""
+          },
+          {
+            "url": "https://r2.d8ger.com/Reve-Image/6.webp",
+            "altMsg": ""
+          }
         ]
     },
     "tips": {
