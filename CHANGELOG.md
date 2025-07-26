@@ -1,5 +1,11 @@
 # reve-image
 
+## 1.5.0
+
+### Minor Changes
+
+- feat(banner): depend-off fumadocs-banner
+
 ## 1.4.1
 
 ### Patch Changes

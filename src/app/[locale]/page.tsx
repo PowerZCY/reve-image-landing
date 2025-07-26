@@ -11,13 +11,13 @@ import {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <>
       <Hero />
       <Gallery />
       <Features />
       <Tips />
       <SeoContent />
       <CTA />
-    </main>
+    </>
   );
 }
