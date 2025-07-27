@@ -43,8 +43,13 @@
         "eyesOn": "Reve Image",
         "titleR": "Créations",
         "description": "Explorez les possibilités incroyables avec Reve Image. Chaque image ci-dessous a été générée en utilisant la technologie IA avec le prompt correspondant.",
-        "button": "Créez Vos Propres Images",
+        "button": {
+          "title": "Créez Vos Propres Images",
+          "href": "https://preview.reve.art/",
+          "align": "center"
+        },
         "defaultImgUrl": "https://r2.d8ger.com/default.webp",
+        "downloadPrefix": "reve-image",
         "prompts": [
           {
             "url": "https://r2.d8ger.com/Reve-Image/1.webp",

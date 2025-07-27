@@ -43,8 +43,13 @@
         "eyesOn": "Reve Image",
         "titleR": "Kreationen",
         "description": "Entdecken Sie die unglaublichen Möglichkeiten mit Reve Image. Jedes Bild unten wurde mit KI-Technologie und dem begleitenden Prompt generiert.",
-        "button": "Erstellen Sie Ihre eigenen Bilder",
+        "button": {
+          "title": "Erstellen Sie Ihre eigenen Bilder",
+          "href": "https://preview.reve.art/",
+          "align": "center"
+        },
         "defaultImgUrl": "https://r2.d8ger.com/default.webp",
+        "downloadPrefix": "reve-image",
         "prompts": [
           {
             "url": "https://r2.d8ger.com/Reve-Image/1.webp",

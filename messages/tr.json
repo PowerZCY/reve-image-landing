@@ -43,8 +43,13 @@
         "eyesOn": "Galeri",
         "titleR": "Eserleri",
         "description": "Reve Image ile inanılmaz olasılıkları keşfedin. Aşağıdaki her görsel, yapay zeka teknolojisi kullanılarak ilgili prompt ile oluşturuldu.",
-        "button": "Kendi Görsellerinizi Oluşturun",
+        "button": {
+          "title": "Kendi Görsellerinizi Oluşturun",
+          "href": "https://preview.reve.art/",
+          "align": "center"
+        },
         "defaultImgUrl": "https://r2.d8ger.com/default.webp",
+        "downloadPrefix": "reve-image",
         "prompts": [
           {
             "url": "https://r2.d8ger.com/Reve-Image/1.webp",

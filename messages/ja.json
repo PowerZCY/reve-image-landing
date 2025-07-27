@@ -43,8 +43,13 @@
         "eyesOn": "Reve Image",
         "titleR": "作品集",
         "description": "Reve Imageの素晴らしい可能性を探索してください。以下の各画像は、AI技術を使用して、付随するプロンプトで生成されました。",
-        "button": "自分の画像を作成する",
+        "button": {
+          "title": "自分の画像を作成する",
+          "href": "https://preview.reve.art/",
+          "align": "center"
+        },
         "defaultImgUrl": "https://r2.d8ger.com/default.webp",
+        "downloadPrefix": "reve-image",
         "prompts": [
           {
             "url": "https://r2.d8ger.com/Reve-Image/1.webp",

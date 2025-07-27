@@ -43,8 +43,13 @@
         "eyesOn": "Reve Image",
         "titleR": "작품 갤러리",
         "description": "Reve Image의 놀라운 가능성을 탐험해보세요. 아래의 각 이미지는 Reve Image AI 기술을 사용하여 해당 프롬프트로 생성되었습니다.",
-        "button": "Reve Image로 나만의 이미지 만들기",
+        "button": {
+          "title": "Reve Image로 나만의 이미지 만들기",
+          "href": "https://preview.reve.art/",
+          "align": "center"
+        },
         "defaultImgUrl": "https://r2.d8ger.com/default.webp",
+        "downloadPrefix": "reve-image",
         "prompts": [
           {
             "url": "https://r2.d8ger.com/Reve-Image/1.webp",
