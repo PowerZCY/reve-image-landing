@@ -1,8 +1,9 @@
-import { Footer, GoToTop, NProgressBar } from "@windrun-huaiin/third-ui/main";
+import {  GoToTop, NProgressBar } from "@windrun-huaiin/third-ui/main";
+import { Footer } from "@windrun-huaiin/third-ui/main/server";
 import { i18n } from "@/i18n";
 import { appConfig, generatedLocales, showBanner } from "@/lib/appConfig";
 import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components";
-import { FumaBannerSuit } from '@windrun-huaiin/third-ui/fuma/mdx';
+import { FumaBannerSuit } from '@windrun-huaiin/third-ui/fuma/server';
 import { fumaI18nCn } from '@windrun-huaiin/third-ui/lib/server';
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
 import { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
@@ -118,9 +119,9 @@ export default async function RootLayout({
               }}
               className={`min-h-screen flex flex-col bg-neutral-100 dark:bg-neutral-900 transition-colors duration-300 ${showBanner ? 'pt-25 has-banner' : 'pt-15 no-banner'}`}
               >
-              <FumaBannerSuit showBanner={showBanner}/>
+              <FumaBannerSuit locale={locale} showBanner={showBanner}/>
               {children}
-              <Footer />
+              <Footer locale={locale} />
               <GoToTop />
             </HomeLayout>
           </RootProvider>

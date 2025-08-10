@@ -1,5 +1,11 @@
 # reve-image
 
+## 2.0.0
+
+### Major Changes
+
+- feat(seo): better seo support
+
 ## 1.7.1
 
 ### Patch Changes

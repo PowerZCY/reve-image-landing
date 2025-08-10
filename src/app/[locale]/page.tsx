@@ -1,5 +1,3 @@
-'use client'
-
 import { Hero } from "@/components/hero";
 import {
   CTA,
@@ -7,16 +5,18 @@ import {
   Gallery,
   SeoContent,
   Tips,
-} from "@windrun-huaiin/third-ui/main";
+} from "@windrun-huaiin/third-ui/main/server";
 import { GradientButton } from "@windrun-huaiin/third-ui/fuma/mdx";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function Home() {
-  const t = useTranslations('gallery');
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'gallery' });
   return (
     <>
-      <Hero />
+      <Hero locale={locale} />
       <Gallery
+        locale={locale}
         button={
           <GradientButton
             title={t("button.title")}
@@ -25,10 +25,10 @@ export default function Home() {
           />
       }
       />
-      <Features />
-      <Tips />
-      <SeoContent />
-      <CTA />
+      <Features locale={locale} />
+      <Tips locale={locale} />
+      <SeoContent locale={locale} />
+      <CTA locale={locale} />
     </>
   );
 }

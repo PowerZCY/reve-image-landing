@@ -1,14 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client'
-
 import { globalLucideIcons as icons } from '@windrun-huaiin/base-ui/components/server'
-import { useTranslations } from 'next-intl'
-import Image from "next/image"
 import { GradientButton } from "@windrun-huaiin/third-ui/fuma/mdx"
+import { getTranslations } from 'next-intl/server'
+import Image from "next/image"
 
-export function Hero() {
-  const t = useTranslations('hero');
-
+export async function Hero({ locale }: { locale: string }) {
+  const t = await getTranslations({ locale, namespace: 'hero' });
   return (
     <section className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center gap-12">
       <div className="flex-[1.6] space-y-6">
