@@ -1,5 +1,11 @@
 # reve-image
 
+## 2.0.1
+
+### Patch Changes
+
+- feat(build): add dev-scripts
+
 ## 2.0.0
 
 ### Major Changes
