@@ -1,5 +1,11 @@
 # reve-image
 
+## 2.0.2
+
+### Patch Changes
+
+- feat(mdx): mdx docs txt
+
 ## 2.0.1
 
 ### Patch Changes
