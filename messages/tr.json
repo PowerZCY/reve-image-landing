@@ -160,5 +160,20 @@
     "contactUs": "Contact Us",
     "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
+  },
+  "fuma": {
+    "search": "Arama",
+    "searchNoResult": "Sonuç bulunamadı",
+    "toc": "Bu sayfa",
+    "tocNoHeadings": "Başlık yok",
+    "lastUpdate": "Son güncelleme",
+    "emptyLastUpdate": "Ooops, Ages ago!",
+    "chooseLanguage": "Dil seçimi",
+    "nextPage": "Sonraki sayfa",
+    "previousPage": "Önceki sayfa",
+    "chooseTheme": "Tema",
+    "copyMarkdown": "Sayfayı Markdown olarak kopyala",
+    "copyMarkdownDone": "Kopyalandı!",
+    "editOnGithub": "Bu sayfayı GitHub'da düzenle"
   }
 }

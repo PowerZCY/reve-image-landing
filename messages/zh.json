@@ -160,5 +160,20 @@
     "contactUs": "联系我们",
     "email": "xyb5to0zcy@gmail.com",
     "thanks": "特别鸣谢"
+  },
+  "fuma": {
+    "search": "搜索",
+    "searchNoResult": "没有找到结果",
+    "toc": "本页内容",
+    "tocNoHeadings": "没有标题",
+    "lastUpdate": "最后更新于",
+    "emptyLastUpdate": "Ooops, Ages ago!",
+    "chooseLanguage": "选择语言",
+    "nextPage": "下一页",
+    "previousPage": "上一页",
+    "chooseTheme": "主题",
+    "copyMarkdown": "复制页面为 Markdown",
+    "copyMarkdownDone": "复制成功！",
+    "editOnGithub": "在 GitHub 上编辑此页面"
   }
 }

@@ -160,5 +160,20 @@
     "contactUs": "Contact Us",
     "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
+  },
+  "fuma": {
+    "search": "Cerca",
+    "searchNoResult": "Nessun risultato trovato",
+    "toc": "Su questa pagina",
+    "tocNoHeadings": "Nessun titolo",
+    "lastUpdate": "Ultimo aggiornamento il",
+    "emptyLastUpdate": "Ooops, Ages ago!",
+    "chooseLanguage": "Scegli la lingua",
+    "nextPage": "Pagina successiva",
+    "previousPage": "Pagina precedente",
+    "chooseTheme": "Tema",
+    "copyMarkdown": "Copia la pagina come Markdown",
+    "copyMarkdownDone": "Copiato!",
+    "editOnGithub": "Modifica questa pagina su GitHub"
   }
 }

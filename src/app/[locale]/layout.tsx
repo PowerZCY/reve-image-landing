@@ -1,24 +1,19 @@
-import {  GoToTop, NProgressBar } from "@windrun-huaiin/third-ui/main";
-import { Footer } from "@windrun-huaiin/third-ui/main/server";
 import { i18n } from "@/i18n";
-import { appConfig, generatedLocales, showBanner } from "@/lib/appConfig";
-import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components";
-import { FumaBannerSuit } from '@windrun-huaiin/third-ui/fuma/server';
-import { fumaI18nCn } from '@windrun-huaiin/third-ui/lib/server';
-import { HomeLayout } from 'fumadocs-ui/layouts/home';
-import { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
-import { RootProvider } from "fumadocs-ui/provider";
+import { appConfig, generatedLocales } from "@/lib/appConfig";
+import { showBanner } from '@/lib/appConfig';
 import { NextIntlClientProvider } from 'next-intl';
-import { SiteIcon } from "@/lib/site-config";
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
-import { Montserrat } from "next/font/google";
 import './globals.css';
-
-const _montserrat = Montserrat({
-  weight: ['400'], // 400 是 Regular
-  subsets: ['latin'],
-  display: 'swap',
-});
+import { SiteIcon } from "@/lib/site-config";
+import { GoogleAnalyticsScript, MicrosoftClarityScript } from "@windrun-huaiin/base-ui/components";
+import { NProgressBar } from "@windrun-huaiin/third-ui/main";
+import { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
+import { getFumaTranslations } from '@windrun-huaiin/third-ui/fuma/server';
+import { RootProvider } from "fumadocs-ui/provider/next";
+import { CustomHomeLayout } from '@windrun-huaiin/third-ui/fuma/base';
+import { type HomeLayoutProps } from 'fumadocs-ui/layouts/home';
+import { montserrat } from '@/lib/fonts';
+import { cn as cnUtils } from '@windrun-huaiin/lib/utils';
 
 export const dynamic = 'force-dynamic'
 
@@ -71,7 +66,7 @@ async function baseOptions(locale: string): Promise<BaseLayoutProps> {
       title: (
         <>
           <SiteIcon />
-          <span className="font-medium [.uwu_&]:hidden [header_&]:text-[15px]">
+          <span className="font-medium in-[.uwu]:hidden in-[header]:text-[15px]">
             {t('title')}
           </span>
         </>
@@ -94,37 +89,45 @@ export default async function RootLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
   const customeOptions = await baseOptions(locale);
+  const homeLayoutOptions: HomeLayoutProps = {
+    ...customeOptions,
+    searchToggle: {
+      enabled: false,
+    },
+    themeSwitch: {
+      enabled: true,
+      mode: 'light-dark-system',
+    },
+  };
+  const fumaTranslations = await getFumaTranslations(locale);
   return (
     <html lang={locale} suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
-        <body>
+        <body className={cnUtils(montserrat.className)}>
           <NProgressBar />
-          <RootProvider
-            i18n={{
-              locale: locale,
-              // available languages
-              locales: generatedLocales,
-              // translations for UI
-              translations: { fumaI18nCn }[locale],
-            }}
-          >
-            <HomeLayout
-              {...customeOptions}
-              searchToggle={{
-                enabled: false,
+            <RootProvider
+              i18n={{
+                locale: locale,
+                // available languages
+                locales: generatedLocales,
+                // translations for UI
+                translations: fumaTranslations,
               }}
-              themeSwitch={{
-                enabled: true,
-                mode: 'light-dark-system',
-              }}
-              className={`min-h-screen flex flex-col bg-neutral-100 dark:bg-neutral-900 transition-colors duration-300 ${showBanner ? 'pt-25 has-banner' : 'pt-15 no-banner'}`}
+            >
+              <CustomHomeLayout
+                locale={locale}
+                options={homeLayoutOptions}
+                showBanner={showBanner}
+                floatingNav={true}
+                actionOrders={{
+                  desktop: ['search', 'theme', 'github', 'i18n', 'secondary'],
+                  mobileBar: ['search', 'pinned', 'menu'],
+                  mobileMenu: ['theme', 'i18n', 'separator', 'secondary', 'github'],
+                }}
               >
-              <FumaBannerSuit locale={locale} showBanner={showBanner}/>
-              {children}
-              <Footer locale={locale} />
-              <GoToTop />
-            </HomeLayout>
-          </RootProvider>
+                {children}
+              </CustomHomeLayout>
+            </RootProvider>
         </body>
         <GoogleAnalyticsScript />
         <MicrosoftClarityScript />

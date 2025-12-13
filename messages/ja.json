@@ -160,5 +160,20 @@
     "contactUs": "Contact Us",
     "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
+  },
+  "fuma": {
+    "search": "検索",
+    "searchNoResult": "検索結果がありません",
+    "toc": "このページ",
+    "tocNoHeadings": "見出しがありません",
+    "lastUpdate": "最終更新日",
+    "emptyLastUpdate": "Ooops, Ages ago!",
+    "chooseLanguage": "言語を選択",
+    "nextPage": "次のページ",
+    "previousPage": "前のページ",
+    "chooseTheme": "テーマ",
+    "copyMarkdown": "ページをMarkdownにコピー",
+    "copyMarkdownDone": "コピー完了！",
+    "editOnGithub": "このページをGitHubで編集"
   }
 }

@@ -5,14 +5,13 @@ import { appConfig } from "@/lib/appConfig";
 const intlMiddleware = createMiddleware({
   // 多语言配置
   locales: appConfig.i18n.locales,
-
   // 默认语言配置
   defaultLocale: appConfig.i18n.defaultLocale,
   localePrefix: "always", // 改为 always，确保始终使用语言前缀
   localeDetection: false  // 添加此配置以禁用自动语言检测
 });
 
-export function middleware(request: NextRequest) {
+export default  function middleware(request: NextRequest) {
   // 处理根路径到默认语言的永久重定向
   if (request.nextUrl.pathname === '/') {
     const defaultLocale = appConfig.i18n.defaultLocale;

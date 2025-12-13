@@ -160,5 +160,20 @@
     "contactUs": "Contact Us",
     "email": "xyb5to0zcy@gmail.com",
     "thanks": "Thanks to"
+  },
+  "fuma": {
+    "search": "검색",
+    "searchNoResult": "검색 결과가 없습니다",
+    "toc": "이 페이지",
+    "tocNoHeadings": "제목이 없습니다",
+    "lastUpdate": "마지막 업데이트",
+    "emptyLastUpdate": "Ooops, Ages ago!",
+    "chooseLanguage": "언어 선택",
+    "nextPage": "다음 페이지",
+    "previousPage": "이전 페이지",
+    "chooseTheme": "테마",
+    "copyMarkdown": "페이지를 Markdown으로 복사",
+    "copyMarkdownDone": "복사 완료!",
+    "editOnGithub": "이 페이지를 GitHub에서 편집"
   }
 }
