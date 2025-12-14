@@ -38,7 +38,7 @@ const nextConfig = {
     parallelServerBuildTraces: false,
     parallelServerCompiles: false,
   },
-  webpack(config, { isServer }) {
+  webpack(config) {
     // 现有的插件
     config.plugins.push(
       new (class {
