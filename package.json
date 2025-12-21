@@ -1,6 +1,6 @@
 {
   "name": "reve-image",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -61,7 +61,7 @@
     "@types/mdx": "^2.0.13",
     "@windrun-huaiin/base-ui": "^11.0.1",
     "@windrun-huaiin/lib": "^11.0.1",
-    "@windrun-huaiin/third-ui": "^11.0.1",
+    "@windrun-huaiin/third-ui": "^11.1.0",
     "autoprefixer": "^10.4.22",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

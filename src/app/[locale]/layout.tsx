@@ -14,6 +14,7 @@ import { CustomHomeLayout } from '@windrun-huaiin/third-ui/fuma/base';
 import { type HomeLayoutProps } from 'fumadocs-ui/layouts/home';
 import { montserrat } from '@/lib/fonts';
 import { cn as cnUtils } from '@windrun-huaiin/lib/utils';
+import { HomeTitle } from '@windrun-huaiin/third-ui/fuma/base';
 
 export const dynamic = 'force-dynamic'
 
@@ -66,9 +67,9 @@ async function baseOptions(locale: string): Promise<BaseLayoutProps> {
       title: (
         <>
           <SiteIcon />
-          <span className="font-medium in-[.uwu]:hidden in-[header]:text-[15px]">
+          <HomeTitle>
             {t('title')}
-          </span>
+          </HomeTitle>
         </>
       ),
       transparentMode: 'none',

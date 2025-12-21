@@ -1,5 +1,11 @@
 # reve-image
 
+## 3.1.0
+
+### Minor Changes
+
+- fix(style): footer style issue fixed
+
 ## 3.0.1
 
 ### Patch Changes
