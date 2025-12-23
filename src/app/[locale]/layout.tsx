@@ -13,7 +13,7 @@ import { RootProvider } from "fumadocs-ui/provider/next";
 import { CustomHomeLayout } from '@windrun-huaiin/third-ui/fuma/base';
 import { type HomeLayoutProps } from 'fumadocs-ui/layouts/home';
 import { montserrat } from '@/lib/fonts';
-import { cn as cnUtils } from '@windrun-huaiin/lib/utils';
+import { cn as cnUtils, getAsNeededLocalizedUrl } from '@windrun-huaiin/lib/utils';
 import { HomeTitle } from '@windrun-huaiin/third-ui/fuma/base';
 
 export const dynamic = 'force-dynamic'
@@ -31,21 +31,20 @@ export async function generateMetadata({
     title: t('webTitle'),
     description: t('webDescription'),
     keywords: t('keywords'),
-    metadataBase: new URL(appConfig.baseUrl),
     alternates: {
-      canonical: `${appConfig.baseUrl}/${locale}`,
+      canonical: `${appConfig.baseUrl}${getAsNeededLocalizedUrl(locale, '/')}`,
       languages: {
-        "en": `${appConfig.baseUrl}/en`,
-        "zh": `${appConfig.baseUrl}/zh`,
-        "ja": `${appConfig.baseUrl}/ja`,
-        "ko": `${appConfig.baseUrl}/ko`,
-        "fr": `${appConfig.baseUrl}/fr`,
-        "de": `${appConfig.baseUrl}/de`,
-        "es": `${appConfig.baseUrl}/es`,
-        "it": `${appConfig.baseUrl}/it`,
-        "pt": `${appConfig.baseUrl}/pt`,
-        "tr": `${appConfig.baseUrl}/tr`,
-        "pl": `${appConfig.baseUrl}/pl`,
+        "en": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('en', '/')}`,
+        "zh": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('zh', '/')}`,
+        "ja": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('ja', '/')}`,
+        "ko": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('ko', '/')}`,
+        "fr": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('fr', '/')}`,
+        "de": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('de', '/')}`,
+        "es": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('es', '/')}`,
+        "it": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('it', '/')}`,
+        "pt": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('pt', '/')}`,
+        "tr": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('tr', '/')}`,
+        "pl": `${appConfig.baseUrl}${getAsNeededLocalizedUrl('pl', '/')}`,
       }
     },
     icons: [
@@ -63,7 +62,7 @@ async function baseOptions(locale: string): Promise<BaseLayoutProps> {
   return {
     // 导航Header配置
     nav: {
-      url: `/${locale}`,
+      url: getAsNeededLocalizedUrl(locale, '/'),
       title: (
         <>
           <SiteIcon />

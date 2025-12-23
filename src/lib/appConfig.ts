@@ -11,3 +11,5 @@ export const { isSupportedLocale, getValidLocale, generatedLocales } = createI18
 // 便捷常量直接从 shortcuts 导出
 export const { iconColor, placeHolderImage, showBanner } = appConfig.shortcuts;
 
+export const { localPrefixAsNeeded, defaultLocale } = appConfig.i18n;
+

@@ -1,5 +1,11 @@
 # reve-image
 
+## 3.1.1
+
+### Patch Changes
+
+- feat(link): remove en
+
 ## 3.1.0
 
 ### Minor Changes
