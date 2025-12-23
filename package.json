@@ -61,7 +61,7 @@
     "@types/mdx": "^2.0.13",
     "@windrun-huaiin/base-ui": "^12.0.0",
     "@windrun-huaiin/lib": "^12.0.1",
-    "@windrun-huaiin/third-ui": "^12.0.2",
+    "@windrun-huaiin/third-ui": "^12.0.3",
     "autoprefixer": "^10.4.22",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
